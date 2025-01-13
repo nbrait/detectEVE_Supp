@@ -1,0 +1,210 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:16:12 2024]
+localrule download_genome:
+    output: genomes/AAKN02.fna, genomes/AAKN02.htm
+    log: genomes/AAKN02.log
+    jobid: 5
+    reason: Missing output files: genomes/AAKN02.fna
+    wildcards: asm=AAKN02
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:19:07 2024]
+Finished job 5.
+1 of 12 steps (8%) done
+Removing temporary output genomes/AAKN02.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:19:07 2024]
+localrule search_assemblies:
+    input: genomes/AAKN02.fna
+    output: results/AAKN02-search.o6, results/AAKN02-search.bed
+    jobid: 4
+    reason: Missing output files: results/AAKN02-search.bed; Input files updated by another job: genomes/AAKN02.fna
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:42:17 2024]
+Finished job 4.
+2 of 12 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:42:17 2024]
+localrule extract_putatEVEs:
+    input: results/AAKN02-search.bed, genomes/AAKN02.fna
+    output: results/AAKN02-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: results/AAKN02-putatEVEs-unmasked.fna; Input files updated by another job: results/AAKN02-search.bed, genomes/AAKN02.fna
+    wildcards: asm=AAKN02
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:42:28 2024]
+Finished job 3.
+3 of 12 steps (25%) done
+Removing temporary output genomes/AAKN02.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:42:28 2024]
+localrule masksearch_putatEVEs:
+    input: results/AAKN02-putatEVEs-unmasked.fna
+    output: results/AAKN02-mask.o6, results/AAKN02-mask.bed
+    jobid: 6
+    reason: Missing output files: results/AAKN02-mask.bed; Input files updated by another job: results/AAKN02-putatEVEs-unmasked.fna
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:42:29 2024]
+Finished job 6.
+4 of 12 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:42:29 2024]
+localrule mask_putatEVEs:
+    input: results/AAKN02-putatEVEs-unmasked.fna, results/AAKN02-mask.bed
+    output: results/AAKN02-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/AAKN02-putatEVEs.fna; Input files updated by another job: results/AAKN02-mask.bed, results/AAKN02-putatEVEs-unmasked.fna
+    wildcards: asm=AAKN02
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:42:29 2024]
+Finished job 2.
+5 of 12 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:42:29 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AAKN02-putatEVEs.fna
+    output: results/AAKN02-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/AAKN02-retro-vdb.o6; Input files updated by another job: results/AAKN02-putatEVEs.fna
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:42:33 2024]
+Finished job 11.
+6 of 12 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:42:33 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AAKN02-putatEVEs.fna
+    output: results/AAKN02-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/AAKN02-retro-udb.o6; Input files updated by another job: results/AAKN02-putatEVEs.fna
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:49 2024]
+Finished job 10.
+7 of 12 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:54:49 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AAKN02-retro-udb.o6, results/AAKN02-retro-vdb.o6
+    output: results/AAKN02-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/AAKN02-retro-notax.bed; Input files updated by another job: results/AAKN02-retro-vdb.o6, results/AAKN02-retro-udb.o6
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:49 2024]
+Finished job 9.
+8 of 12 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:54:49 2024]
+localrule taxize_putatEVEs:
+    input: results/AAKN02-retro-notax.bed
+    output: results/AAKN02-retro.bed
+    jobid: 8
+    reason: Missing output files: results/AAKN02-retro.bed; Input files updated by another job: results/AAKN02-retro-notax.bed
+    wildcards: asm=AAKN02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:53 2024]
+Finished job 8.
+9 of 12 steps (75%) done
+Removing temporary output results/AAKN02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:54:53 2024]
+localrule validate_putatEVEs:
+    input: results/AAKN02-retro.bed
+    output: results/AAKN02-validatEVEs.tsv, results/AAKN02-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/AAKN02-validatEVEs.pdf, results/AAKN02-validatEVEs.tsv; Input files updated by another job: results/AAKN02-retro.bed
+    wildcards: asm=AAKN02
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:57 2024]
+Finished job 7.
+10 of 12 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:54:57 2024]
+localrule extract_validatEVEs:
+    input: results/AAKN02-putatEVEs.fna, results/AAKN02-validatEVEs.tsv
+    output: results/AAKN02-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/AAKN02-validatEVEs.fna; Input files updated by another job: results/AAKN02-putatEVEs.fna, results/AAKN02-validatEVEs.tsv
+    wildcards: asm=AAKN02
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:57 2024]
+Finished job 1.
+11 of 12 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Jul 13 13:54:57 2024]
+localrule all:
+    input: results/AAKN02-validatEVEs.fna, results/AAKN02-validatEVEs.pdf, results/AAKN02-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/AAKN02-validatEVEs.pdf, results/AAKN02-validatEVEs.tsv, results/AAKN02-validatEVEs.fna
+    resources: tmpdir=/tmp
+
+[Sat Jul 13 13:54:57 2024]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2024-07-13T131612.419750.snakemake.log

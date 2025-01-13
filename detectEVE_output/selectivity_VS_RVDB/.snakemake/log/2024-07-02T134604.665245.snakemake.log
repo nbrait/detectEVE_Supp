@@ -1,0 +1,48 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    5
+extract_putatEVEs                 26
+extract_validatEVEs               26
+mask_putatEVEs                    26
+masksearch_putatEVEs              26
+retrosearch_putatEVEs_merge       26
+retrosearch_putatEVEs_udb         26
+retrosearch_putatEVEs_vdb         26
+search_assemblies                 26
+taxize_putatEVEs                  26
+validate_putatEVEs                26
+total                            266
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul  2 13:46:04 2024]
+localrule search_assemblies:
+    input: genomes/AAFR03.fna
+    output: results/AAFR03-search.o6, results/AAFR03-search.bed
+    jobid: 213
+    reason: Missing output files: results/AAFR03-search.bed
+    wildcards: asm=AAFR03
+    threads: 40
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Tue Jul  2 13:46:15 2024]
+Error in rule search_assemblies:
+    jobid: 213
+    input: genomes/AAFR03.fna
+    output: results/AAFR03-search.o6, results/AAFR03-search.bed
+    shell:
+        /media/veelab/Data/detectEVE/workflow/scripts/diamond-chopped.sh blastx --query genomes/AAFR03.fna --out results/AAFR03-search.o6 --threads 40 --db /media/veelab/Data/detectEVE/databases/rvdb80.dmnd --taxonlist 2732396,2731342 --evalue 1e-4 -c1 -b6 -F15 --very-sensitive --max-hsps 100 --range-culling -k 20 --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle -W 60000 -S 50000
+/media/veelab/Data/detectEVE/workflow/scripts/blast2bed -qa results/AAFR03-search.o6 | /media/veelab/Data/detectEVE/workflow/scripts/bed-top -m 83 > results/AAFR03-search.bed
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-07-02T134604.665245.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

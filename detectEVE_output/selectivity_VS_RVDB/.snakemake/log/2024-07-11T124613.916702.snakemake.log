@@ -1,0 +1,113 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 30
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+extract_putatEVEs                 25
+extract_validatEVEs               25
+mask_putatEVEs                    25
+masksearch_putatEVEs              25
+retrosearch_putatEVEs_merge       25
+retrosearch_putatEVEs_udb         25
+retrosearch_putatEVEs_vdb         25
+search_assemblies                 25
+taxize_putatEVEs                  25
+validate_putatEVEs                25
+total                            251
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 12:46:14 2024]
+localrule search_assemblies:
+    input: genomes/AAFR03.fna
+    output: results/AAFR03-search.o6, results/AAFR03-search.bed
+    jobid: 224
+    reason: Missing output files: results/AAFR03-search.bed
+    wildcards: asm=AAFR03
+    threads: 30
+    resources: tmpdir=/tmp
+
+[Thu Jul 11 13:19:58 2024]
+Finished job 224.
+1 of 251 steps (0.4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 13:19:58 2024]
+localrule search_assemblies:
+    input: genomes/AAGU03.fna
+    output: results/AAGU03-search.o6, results/AAGU03-search.bed
+    jobid: 4
+    reason: Missing output files: results/AAGU03-search.bed
+    wildcards: asm=AAGU03
+    threads: 30
+    resources: tmpdir=/tmp
+
+[Thu Jul 11 13:52:39 2024]
+Finished job 4.
+2 of 251 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 13:52:39 2024]
+localrule search_assemblies:
+    input: genomes/CABD02.fna
+    output: results/CABD02-search.o6, results/CABD02-search.bed
+    jobid: 246
+    reason: Missing output files: results/CABD02-search.bed
+    wildcards: asm=CABD02
+    threads: 30
+    resources: tmpdir=/tmp
+
+[Thu Jul 11 14:24:50 2024]
+Finished job 246.
+3 of 251 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 14:24:50 2024]
+localrule search_assemblies:
+    input: genomes/ABQO01.fna
+    output: results/ABQO01-search.o6, results/ABQO01-search.bed
+    jobid: 48
+    reason: Missing output files: results/ABQO01-search.bed
+    wildcards: asm=ABQO01
+    threads: 30
+    resources: tmpdir=/tmp
+
+[Thu Jul 11 15:03:37 2024]
+Finished job 48.
+4 of 251 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 15:03:37 2024]
+localrule search_assemblies:
+    input: genomes/ABRQ01.fna
+    output: results/ABRQ01-search.o6, results/ABRQ01-search.bed
+    jobid: 191
+    reason: Missing output files: results/ABRQ01-search.bed
+    wildcards: asm=ABRQ01
+    threads: 30
+    resources: tmpdir=/tmp
+
+[Thu Jul 11 15:39:22 2024]
+Finished job 191.
+5 of 251 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jul 11 15:39:22 2024]
+localrule search_assemblies:
+    input: genomes/AAQR01.fna
+    output: results/AAQR01-search.o6, results/AAQR01-search.bed
+    jobid: 81
+    reason: Missing output files: results/AAQR01-search.bed
+    wildcards: asm=AAQR01
+    threads: 30
+    resources: tmpdir=/tmp
+
