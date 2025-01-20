@@ -1,0 +1,3684 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+extract_putatEVEs                 24
+extract_validatEVEs               24
+mask_putatEVEs                    24
+masksearch_putatEVEs              24
+retrosearch_putatEVEs_merge       24
+retrosearch_putatEVEs_udb         24
+retrosearch_putatEVEs_vdb         24
+search_assemblies                 24
+taxize_putatEVEs                  24
+validate_putatEVEs                24
+total                            241
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:36:55 2024]
+localrule search_assemblies:
+    input: genomes/AAAB01.fna
+    output: results/AAAB01-search.o6, results/AAAB01-search.bed
+    jobid: 235
+    reason: Missing output files: results/AAAB01-search.bed
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:37:43 2024]
+Finished job 235.
+1 of 241 steps (0.4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:37:43 2024]
+localrule search_assemblies:
+    input: genomes/AXCQ01.fna
+    output: results/AXCQ01-search.o6, results/AXCQ01-search.bed
+    jobid: 15
+    reason: Missing output files: results/AXCQ01-search.bed
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:38:06 2024]
+Finished job 15.
+2 of 241 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:38:06 2024]
+localrule search_assemblies:
+    input: genomes/ATLV01.fna
+    output: results/ATLV01-search.o6, results/ATLV01-search.bed
+    jobid: 147
+    reason: Missing output files: results/ATLV01-search.bed
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:38:28 2024]
+Finished job 147.
+3 of 241 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:38:28 2024]
+localrule search_assemblies:
+    input: genomes/ALPR02.fna
+    output: results/ALPR02-search.o6, results/ALPR02-search.bed
+    jobid: 48
+    reason: Missing output files: results/ALPR02-search.bed
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:38:50 2024]
+Finished job 48.
+4 of 241 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:38:50 2024]
+localrule search_assemblies:
+    input: genomes/APCN01.fna
+    output: results/APCN01-search.o6, results/APCN01-search.bed
+    jobid: 213
+    reason: Missing output files: results/APCN01-search.bed
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:39:13 2024]
+Finished job 213.
+5 of 241 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:39:13 2024]
+localrule search_assemblies:
+    input: genomes/ABKP02.fna
+    output: results/ABKP02-search.o6, results/ABKP02-search.bed
+    jobid: 202
+    reason: Missing output files: results/ABKP02-search.bed
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:39:34 2024]
+Finished job 202.
+6 of 241 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:39:34 2024]
+localrule search_assemblies:
+    input: genomes/APCH01.fna
+    output: results/APCH01-search.o6, results/APCH01-search.bed
+    jobid: 257
+    reason: Missing output files: results/APCH01-search.bed
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:39:56 2024]
+Finished job 257.
+7 of 241 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:39:56 2024]
+localrule search_assemblies:
+    input: genomes/APCJ01.fna
+    output: results/APCJ01-search.o6, results/APCJ01-search.bed
+    jobid: 114
+    reason: Missing output files: results/APCJ01-search.bed
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:40:18 2024]
+Finished job 114.
+8 of 241 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:40:18 2024]
+localrule search_assemblies:
+    input: genomes/APCL01.fna
+    output: results/APCL01-search.o6, results/APCL01-search.bed
+    jobid: 81
+    reason: Missing output files: results/APCL01-search.bed
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:40:39 2024]
+Finished job 81.
+9 of 241 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:40:39 2024]
+localrule search_assemblies:
+    input: genomes/APCG01.fna
+    output: results/APCG01-search.o6, results/APCG01-search.bed
+    jobid: 4
+    reason: Missing output files: results/APCG01-search.bed
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:41:01 2024]
+Finished job 4.
+10 of 241 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:41:01 2024]
+localrule search_assemblies:
+    input: genomes/AXCK02.fna
+    output: results/AXCK02-search.o6, results/AXCK02-search.bed
+    jobid: 169
+    reason: Missing output files: results/AXCK02-search.bed
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:41:20 2024]
+Finished job 169.
+11 of 241 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:41:20 2024]
+localrule search_assemblies:
+    input: genomes/APCI01.fna
+    output: results/APCI01-search.o6, results/APCI01-search.bed
+    jobid: 246
+    reason: Missing output files: results/APCI01-search.bed
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:41:41 2024]
+Finished job 246.
+12 of 241 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:41:41 2024]
+localrule search_assemblies:
+    input: genomes/AXCP01.fna
+    output: results/AXCP01-search.o6, results/AXCP01-search.bed
+    jobid: 92
+    reason: Missing output files: results/AXCP01-search.bed
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:42:01 2024]
+Finished job 92.
+13 of 241 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:42:01 2024]
+localrule search_assemblies:
+    input: genomes/AXCM01.fna
+    output: results/AXCM01-search.o6, results/AXCM01-search.bed
+    jobid: 180
+    reason: Missing output files: results/AXCM01-search.bed
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:42:19 2024]
+Finished job 180.
+14 of 241 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:42:20 2024]
+localrule search_assemblies:
+    input: genomes/APHL01.fna
+    output: results/APHL01-search.o6, results/APHL01-search.bed
+    jobid: 70
+    reason: Missing output files: results/APHL01-search.bed
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:42:40 2024]
+Finished job 70.
+15 of 241 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:42:40 2024]
+localrule search_assemblies:
+    input: genomes/AXCN01.fna
+    output: results/AXCN01-search.o6, results/AXCN01-search.bed
+    jobid: 26
+    reason: Missing output files: results/AXCN01-search.bed
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:43:01 2024]
+Finished job 26.
+16 of 241 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:43:01 2024]
+localrule search_assemblies:
+    input: genomes/APCM01.fna
+    output: results/APCM01-search.o6, results/APCM01-search.bed
+    jobid: 224
+    reason: Missing output files: results/APCM01-search.bed
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:43:18 2024]
+Finished job 224.
+17 of 241 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:43:18 2024]
+localrule search_assemblies:
+    input: genomes/APCK01.fna
+    output: results/APCK01-search.o6, results/APCK01-search.bed
+    jobid: 125
+    reason: Missing output files: results/APCK01-search.bed
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:43:37 2024]
+Finished job 125.
+18 of 241 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:43:37 2024]
+localrule search_assemblies:
+    input: genomes/JXXB01.fna
+    output: results/JXXB01-search.o6, results/JXXB01-search.bed
+    jobid: 59
+    reason: Missing output files: results/JXXB01-search.bed
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:43:53 2024]
+Finished job 59.
+19 of 241 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:43:53 2024]
+localrule search_assemblies:
+    input: genomes/JXXA01.fna
+    output: results/JXXA01-search.o6, results/JXXA01-search.bed
+    jobid: 136
+    reason: Missing output files: results/JXXA01-search.bed
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:08 2024]
+Finished job 136.
+20 of 241 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:08 2024]
+localrule search_assemblies:
+    input: genomes/ADMH02.fna
+    output: results/ADMH02-search.o6, results/ADMH02-search.bed
+    jobid: 158
+    reason: Missing output files: results/ADMH02-search.bed
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:24 2024]
+Finished job 158.
+21 of 241 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:24 2024]
+localrule search_assemblies:
+    input: genomes/AXCL01.fna
+    output: results/AXCL01-search.o6, results/AXCL01-search.bed
+    jobid: 103
+    reason: Missing output files: results/AXCL01-search.bed
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:38 2024]
+Finished job 103.
+22 of 241 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:38 2024]
+localrule search_assemblies:
+    input: genomes/ATLZ01.fna
+    output: results/ATLZ01-search.o6, results/ATLZ01-search.bed
+    jobid: 191
+    reason: Missing output files: results/ATLZ01-search.bed
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:49 2024]
+Finished job 191.
+23 of 241 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:49 2024]
+localrule search_assemblies:
+    input: genomes/ACXO01.fna
+    output: results/ACXO01-search.o6, results/ACXO01-search.bed
+    jobid: 37
+    reason: Missing output files: results/ACXO01-search.bed
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:51 2024]
+Finished job 37.
+24 of 241 steps (10%) done
+Select jobs to execute...
+Execute 24 jobs...
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCK01-search.bed, genomes/APCK01.fna
+    output: results/APCK01-putatEVEs-unmasked.fna
+    jobid: 124
+    reason: Missing output files: results/APCK01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCK01-search.bed
+    wildcards: asm=APCK01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ALPR02-search.bed, genomes/ALPR02.fna
+    output: results/ALPR02-putatEVEs-unmasked.fna
+    jobid: 47
+    reason: Missing output files: results/ALPR02-putatEVEs-unmasked.fna; Input files updated by another job: results/ALPR02-search.bed
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCN01-search.bed, genomes/APCN01.fna
+    output: results/APCN01-putatEVEs-unmasked.fna
+    jobid: 212
+    reason: Missing output files: results/APCN01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCN01-search.bed
+    wildcards: asm=APCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/JXXA01-search.bed, genomes/JXXA01.fna
+    output: results/JXXA01-putatEVEs-unmasked.fna
+    jobid: 135
+    reason: Missing output files: results/JXXA01-putatEVEs-unmasked.fna; Input files updated by another job: results/JXXA01-search.bed
+    wildcards: asm=JXXA01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCM01-search.bed, genomes/APCM01.fna
+    output: results/APCM01-putatEVEs-unmasked.fna
+    jobid: 223
+    reason: Missing output files: results/APCM01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCM01-search.bed
+    wildcards: asm=APCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/JXXB01-search.bed, genomes/JXXB01.fna
+    output: results/JXXB01-putatEVEs-unmasked.fna
+    jobid: 58
+    reason: Missing output files: results/JXXB01-putatEVEs-unmasked.fna; Input files updated by another job: results/JXXB01-search.bed
+    wildcards: asm=JXXB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ATLV01-search.bed, genomes/ATLV01.fna
+    output: results/ATLV01-putatEVEs-unmasked.fna
+    jobid: 146
+    reason: Missing output files: results/ATLV01-putatEVEs-unmasked.fna; Input files updated by another job: results/ATLV01-search.bed
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AAAB01-search.bed, genomes/AAAB01.fna
+    output: results/AAAB01-putatEVEs-unmasked.fna
+    jobid: 234
+    reason: Missing output files: results/AAAB01-putatEVEs-unmasked.fna; Input files updated by another job: results/AAAB01-search.bed
+    wildcards: asm=AAAB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APHL01-search.bed, genomes/APHL01.fna
+    output: results/APHL01-putatEVEs-unmasked.fna
+    jobid: 69
+    reason: Missing output files: results/APHL01-putatEVEs-unmasked.fna; Input files updated by another job: results/APHL01-search.bed
+    wildcards: asm=APHL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ADMH02-search.bed, genomes/ADMH02.fna
+    output: results/ADMH02-putatEVEs-unmasked.fna
+    jobid: 157
+    reason: Missing output files: results/ADMH02-putatEVEs-unmasked.fna; Input files updated by another job: results/ADMH02-search.bed
+    wildcards: asm=ADMH02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ACXO01-search.bed, genomes/ACXO01.fna
+    output: results/ACXO01-putatEVEs-unmasked.fna
+    jobid: 36
+    reason: Missing output files: results/ACXO01-putatEVEs-unmasked.fna; Input files updated by another job: results/ACXO01-search.bed
+    wildcards: asm=ACXO01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCL01-search.bed, genomes/APCL01.fna
+    output: results/APCL01-putatEVEs-unmasked.fna
+    jobid: 80
+    reason: Missing output files: results/APCL01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCL01-search.bed
+    wildcards: asm=APCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCI01-search.bed, genomes/APCI01.fna
+    output: results/APCI01-putatEVEs-unmasked.fna
+    jobid: 245
+    reason: Missing output files: results/APCI01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCI01-search.bed
+    wildcards: asm=APCI01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCG01-search.bed, genomes/APCG01.fna
+    output: results/APCG01-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: results/APCG01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCG01-search.bed
+    wildcards: asm=APCG01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCK02-search.bed, genomes/AXCK02.fna
+    output: results/AXCK02-putatEVEs-unmasked.fna
+    jobid: 168
+    reason: Missing output files: results/AXCK02-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCK02-search.bed
+    wildcards: asm=AXCK02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCH01-search.bed, genomes/APCH01.fna
+    output: results/APCH01-putatEVEs-unmasked.fna
+    jobid: 256
+    reason: Missing output files: results/APCH01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCH01-search.bed
+    wildcards: asm=APCH01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCP01-search.bed, genomes/AXCP01.fna
+    output: results/AXCP01-putatEVEs-unmasked.fna
+    jobid: 91
+    reason: Missing output files: results/AXCP01-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCP01-search.bed
+    wildcards: asm=AXCP01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCQ01-search.bed, genomes/AXCQ01.fna
+    output: results/AXCQ01-putatEVEs-unmasked.fna
+    jobid: 14
+    reason: Missing output files: results/AXCQ01-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCQ01-search.bed
+    wildcards: asm=AXCQ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCM01-search.bed, genomes/AXCM01.fna
+    output: results/AXCM01-putatEVEs-unmasked.fna
+    jobid: 179
+    reason: Missing output files: results/AXCM01-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCM01-search.bed
+    wildcards: asm=AXCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCL01-search.bed, genomes/AXCL01.fna
+    output: results/AXCL01-putatEVEs-unmasked.fna
+    jobid: 102
+    reason: Missing output files: results/AXCL01-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCL01-search.bed
+    wildcards: asm=AXCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/AXCN01-search.bed, genomes/AXCN01.fna
+    output: results/AXCN01-putatEVEs-unmasked.fna
+    jobid: 25
+    reason: Missing output files: results/AXCN01-putatEVEs-unmasked.fna; Input files updated by another job: results/AXCN01-search.bed
+    wildcards: asm=AXCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ATLZ01-search.bed, genomes/ATLZ01.fna
+    output: results/ATLZ01-putatEVEs-unmasked.fna
+    jobid: 190
+    reason: Missing output files: results/ATLZ01-putatEVEs-unmasked.fna; Input files updated by another job: results/ATLZ01-search.bed
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/APCJ01-search.bed, genomes/APCJ01.fna
+    output: results/APCJ01-putatEVEs-unmasked.fna
+    jobid: 113
+    reason: Missing output files: results/APCJ01-putatEVEs-unmasked.fna; Input files updated by another job: results/APCJ01-search.bed
+    wildcards: asm=APCJ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:44:51 2024]
+localrule extract_putatEVEs:
+    input: results/ABKP02-search.bed, genomes/ABKP02.fna
+    output: results/ABKP02-putatEVEs-unmasked.fna
+    jobid: 201
+    reason: Missing output files: results/ABKP02-putatEVEs-unmasked.fna; Input files updated by another job: results/ABKP02-search.bed
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:51 2024]
+Finished job 36.
+25 of 241 steps (10%) done
+Removing temporary output genomes/ACXO01.fna.
+Select jobs to execute...
+[Fri Jul  5 12:44:52 2024]
+Finished job 157.
+26 of 241 steps (11%) done
+Removing temporary output genomes/ADMH02.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 135.
+27 of 241 steps (11%) done
+Removing temporary output genomes/JXXA01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 124.
+28 of 241 steps (12%) done
+Removing temporary output genomes/APCK01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 25.
+29 of 241 steps (12%) done
+Removing temporary output genomes/AXCN01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 3.
+30 of 241 steps (12%) done
+Removing temporary output genomes/APCG01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 69.
+31 of 241 steps (13%) done
+Removing temporary output genomes/APHL01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 91.
+32 of 241 steps (13%) done
+Removing temporary output genomes/AXCP01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 113.
+33 of 241 steps (14%) done
+Removing temporary output genomes/APCJ01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 245.
+34 of 241 steps (14%) done
+Removing temporary output genomes/APCI01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 80.
+35 of 241 steps (15%) done
+Removing temporary output genomes/APCL01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 190.
+36 of 241 steps (15%) done
+Removing temporary output genomes/ATLZ01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 58.
+37 of 241 steps (15%) done
+Removing temporary output genomes/JXXB01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 168.
+38 of 241 steps (16%) done
+Removing temporary output genomes/AXCK02.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 212.
+39 of 241 steps (16%) done
+Removing temporary output genomes/APCN01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 223.
+40 of 241 steps (17%) done
+Removing temporary output genomes/APCM01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 256.
+41 of 241 steps (17%) done
+Removing temporary output genomes/APCH01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 14.
+42 of 241 steps (17%) done
+Removing temporary output genomes/AXCQ01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 179.
+43 of 241 steps (18%) done
+Removing temporary output genomes/AXCM01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 102.
+44 of 241 steps (18%) done
+Removing temporary output genomes/AXCL01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 146.
+45 of 241 steps (19%) done
+Removing temporary output genomes/ATLV01.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 47.
+46 of 241 steps (19%) done
+Removing temporary output genomes/ALPR02.fna.
+[Fri Jul  5 12:44:52 2024]
+Finished job 201.
+47 of 241 steps (20%) done
+Removing temporary output genomes/ABKP02.fna.
+[Fri Jul  5 12:44:53 2024]
+Finished job 234.
+48 of 241 steps (20%) done
+Removing temporary output genomes/AAAB01.fna.
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:53 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCN01-putatEVEs-unmasked.fna
+    output: results/AXCN01-mask.o6, results/AXCN01-mask.bed
+    jobid: 28
+    reason: Missing output files: results/AXCN01-mask.bed; Input files updated by another job: results/AXCN01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Fri Jul  5 12:44:53 2024]
+Finished job 28.
+49 of 241 steps (20%) done
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:53 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCJ01-putatEVEs-unmasked.fna
+    output: results/APCJ01-mask.o6, results/APCJ01-mask.bed
+    jobid: 116
+    reason: Missing output files: results/APCJ01-mask.bed; Input files updated by another job: results/APCJ01-putatEVEs-unmasked.fna
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:54 2024]
+Finished job 116.
+50 of 241 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:54 2024]
+localrule masksearch_putatEVEs:
+    input: results/ACXO01-putatEVEs-unmasked.fna
+    output: results/ACXO01-mask.o6, results/ACXO01-mask.bed
+    jobid: 39
+    reason: Missing output files: results/ACXO01-mask.bed; Input files updated by another job: results/ACXO01-putatEVEs-unmasked.fna
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:54 2024]
+Finished job 39.
+51 of 241 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:54 2024]
+localrule masksearch_putatEVEs:
+    input: results/ABKP02-putatEVEs-unmasked.fna
+    output: results/ABKP02-mask.o6, results/ABKP02-mask.bed
+    jobid: 204
+    reason: Missing output files: results/ABKP02-mask.bed; Input files updated by another job: results/ABKP02-putatEVEs-unmasked.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:55 2024]
+Finished job 204.
+52 of 241 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:55 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCK01-putatEVEs-unmasked.fna
+    output: results/APCK01-mask.o6, results/APCK01-mask.bed
+    jobid: 127
+    reason: Missing output files: results/APCK01-mask.bed; Input files updated by another job: results/APCK01-putatEVEs-unmasked.fna
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:55 2024]
+Finished job 127.
+53 of 241 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:55 2024]
+localrule masksearch_putatEVEs:
+    input: results/AAAB01-putatEVEs-unmasked.fna
+    output: results/AAAB01-mask.o6, results/AAAB01-mask.bed
+    jobid: 237
+    reason: Missing output files: results/AAAB01-mask.bed; Input files updated by another job: results/AAAB01-putatEVEs-unmasked.fna
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:56 2024]
+Finished job 237.
+54 of 241 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:56 2024]
+localrule masksearch_putatEVEs:
+    input: results/APHL01-putatEVEs-unmasked.fna
+    output: results/APHL01-mask.o6, results/APHL01-mask.bed
+    jobid: 72
+    reason: Missing output files: results/APHL01-mask.bed; Input files updated by another job: results/APHL01-putatEVEs-unmasked.fna
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:56 2024]
+Finished job 72.
+55 of 241 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:56 2024]
+localrule masksearch_putatEVEs:
+    input: results/ATLV01-putatEVEs-unmasked.fna
+    output: results/ATLV01-mask.o6, results/ATLV01-mask.bed
+    jobid: 149
+    reason: Missing output files: results/ATLV01-mask.bed; Input files updated by another job: results/ATLV01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:57 2024]
+Finished job 149.
+56 of 241 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:57 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCM01-putatEVEs-unmasked.fna
+    output: results/APCM01-mask.o6, results/APCM01-mask.bed
+    jobid: 226
+    reason: Missing output files: results/APCM01-mask.bed; Input files updated by another job: results/APCM01-putatEVEs-unmasked.fna
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:57 2024]
+Finished job 226.
+57 of 241 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:58 2024]
+localrule masksearch_putatEVEs:
+    input: results/JXXB01-putatEVEs-unmasked.fna
+    output: results/JXXB01-mask.o6, results/JXXB01-mask.bed
+    jobid: 61
+    reason: Missing output files: results/JXXB01-mask.bed; Input files updated by another job: results/JXXB01-putatEVEs-unmasked.fna
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:58 2024]
+Finished job 61.
+58 of 241 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:58 2024]
+localrule masksearch_putatEVEs:
+    input: results/ADMH02-putatEVEs-unmasked.fna
+    output: results/ADMH02-mask.o6, results/ADMH02-mask.bed
+    jobid: 160
+    reason: Missing output files: results/ADMH02-mask.bed; Input files updated by another job: results/ADMH02-putatEVEs-unmasked.fna
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:59 2024]
+Finished job 160.
+59 of 241 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:59 2024]
+localrule masksearch_putatEVEs:
+    input: results/JXXA01-putatEVEs-unmasked.fna
+    output: results/JXXA01-mask.o6, results/JXXA01-mask.bed
+    jobid: 138
+    reason: Missing output files: results/JXXA01-mask.bed; Input files updated by another job: results/JXXA01-putatEVEs-unmasked.fna
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:44:59 2024]
+Finished job 138.
+60 of 241 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:44:59 2024]
+localrule masksearch_putatEVEs:
+    input: results/ALPR02-putatEVEs-unmasked.fna
+    output: results/ALPR02-mask.o6, results/ALPR02-mask.bed
+    jobid: 50
+    reason: Missing output files: results/ALPR02-mask.bed; Input files updated by another job: results/ALPR02-putatEVEs-unmasked.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:00 2024]
+Finished job 50.
+61 of 241 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:00 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCN01-putatEVEs-unmasked.fna
+    output: results/APCN01-mask.o6, results/APCN01-mask.bed
+    jobid: 215
+    reason: Missing output files: results/APCN01-mask.bed; Input files updated by another job: results/APCN01-putatEVEs-unmasked.fna
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:00 2024]
+Finished job 215.
+62 of 241 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:00 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCL01-putatEVEs-unmasked.fna
+    output: results/APCL01-mask.o6, results/APCL01-mask.bed
+    jobid: 83
+    reason: Missing output files: results/APCL01-mask.bed; Input files updated by another job: results/APCL01-putatEVEs-unmasked.fna
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:01 2024]
+Finished job 83.
+63 of 241 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:01 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCI01-putatEVEs-unmasked.fna
+    output: results/APCI01-mask.o6, results/APCI01-mask.bed
+    jobid: 248
+    reason: Missing output files: results/APCI01-mask.bed; Input files updated by another job: results/APCI01-putatEVEs-unmasked.fna
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:01 2024]
+Finished job 248.
+64 of 241 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:01 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCG01-putatEVEs-unmasked.fna
+    output: results/APCG01-mask.o6, results/APCG01-mask.bed
+    jobid: 6
+    reason: Missing output files: results/APCG01-mask.bed; Input files updated by another job: results/APCG01-putatEVEs-unmasked.fna
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:02 2024]
+Finished job 6.
+65 of 241 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:02 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCK02-putatEVEs-unmasked.fna
+    output: results/AXCK02-mask.o6, results/AXCK02-mask.bed
+    jobid: 171
+    reason: Missing output files: results/AXCK02-mask.bed; Input files updated by another job: results/AXCK02-putatEVEs-unmasked.fna
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:02 2024]
+Finished job 171.
+66 of 241 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:02 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCP01-putatEVEs-unmasked.fna
+    output: results/AXCP01-mask.o6, results/AXCP01-mask.bed
+    jobid: 94
+    reason: Missing output files: results/AXCP01-mask.bed; Input files updated by another job: results/AXCP01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:03 2024]
+Finished job 94.
+67 of 241 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:03 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCL01-putatEVEs-unmasked.fna
+    output: results/AXCL01-mask.o6, results/AXCL01-mask.bed
+    jobid: 105
+    reason: Missing output files: results/AXCL01-mask.bed; Input files updated by another job: results/AXCL01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:03 2024]
+Finished job 105.
+68 of 241 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:03 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCM01-putatEVEs-unmasked.fna
+    output: results/AXCM01-mask.o6, results/AXCM01-mask.bed
+    jobid: 182
+    reason: Missing output files: results/AXCM01-mask.bed; Input files updated by another job: results/AXCM01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:04 2024]
+Finished job 182.
+69 of 241 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:04 2024]
+localrule masksearch_putatEVEs:
+    input: results/AXCQ01-putatEVEs-unmasked.fna
+    output: results/AXCQ01-mask.o6, results/AXCQ01-mask.bed
+    jobid: 17
+    reason: Missing output files: results/AXCQ01-mask.bed; Input files updated by another job: results/AXCQ01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:04 2024]
+Finished job 17.
+70 of 241 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:04 2024]
+localrule masksearch_putatEVEs:
+    input: results/ATLZ01-putatEVEs-unmasked.fna
+    output: results/ATLZ01-mask.o6, results/ATLZ01-mask.bed
+    jobid: 193
+    reason: Missing output files: results/ATLZ01-mask.bed; Input files updated by another job: results/ATLZ01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:05 2024]
+Finished job 193.
+71 of 241 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:05 2024]
+localrule masksearch_putatEVEs:
+    input: results/APCH01-putatEVEs-unmasked.fna
+    output: results/APCH01-mask.o6, results/APCH01-mask.bed
+    jobid: 259
+    reason: Missing output files: results/APCH01-mask.bed; Input files updated by another job: results/APCH01-putatEVEs-unmasked.fna
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:05 2024]
+Finished job 259.
+72 of 241 steps (30%) done
+Select jobs to execute...
+Execute 24 jobs...
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCK01-putatEVEs-unmasked.fna, results/APCK01-mask.bed
+    output: results/APCK01-putatEVEs.fna
+    jobid: 123
+    reason: Missing output files: results/APCK01-putatEVEs.fna; Input files updated by another job: results/APCK01-mask.bed, results/APCK01-putatEVEs-unmasked.fna
+    wildcards: asm=APCK01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ALPR02-putatEVEs-unmasked.fna, results/ALPR02-mask.bed
+    output: results/ALPR02-putatEVEs.fna
+    jobid: 46
+    reason: Missing output files: results/ALPR02-putatEVEs.fna; Input files updated by another job: results/ALPR02-putatEVEs-unmasked.fna, results/ALPR02-mask.bed
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCN01-putatEVEs-unmasked.fna, results/APCN01-mask.bed
+    output: results/APCN01-putatEVEs.fna
+    jobid: 211
+    reason: Missing output files: results/APCN01-putatEVEs.fna; Input files updated by another job: results/APCN01-mask.bed, results/APCN01-putatEVEs-unmasked.fna
+    wildcards: asm=APCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/JXXA01-putatEVEs-unmasked.fna, results/JXXA01-mask.bed
+    output: results/JXXA01-putatEVEs.fna
+    jobid: 134
+    reason: Missing output files: results/JXXA01-putatEVEs.fna; Input files updated by another job: results/JXXA01-putatEVEs-unmasked.fna, results/JXXA01-mask.bed
+    wildcards: asm=JXXA01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCM01-putatEVEs-unmasked.fna, results/APCM01-mask.bed
+    output: results/APCM01-putatEVEs.fna
+    jobid: 222
+    reason: Missing output files: results/APCM01-putatEVEs.fna; Input files updated by another job: results/APCM01-mask.bed, results/APCM01-putatEVEs-unmasked.fna
+    wildcards: asm=APCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/JXXB01-putatEVEs-unmasked.fna, results/JXXB01-mask.bed
+    output: results/JXXB01-putatEVEs.fna
+    jobid: 57
+    reason: Missing output files: results/JXXB01-putatEVEs.fna; Input files updated by another job: results/JXXB01-mask.bed, results/JXXB01-putatEVEs-unmasked.fna
+    wildcards: asm=JXXB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ATLV01-putatEVEs-unmasked.fna, results/ATLV01-mask.bed
+    output: results/ATLV01-putatEVEs.fna
+    jobid: 145
+    reason: Missing output files: results/ATLV01-putatEVEs.fna; Input files updated by another job: results/ATLV01-mask.bed, results/ATLV01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AAAB01-putatEVEs-unmasked.fna, results/AAAB01-mask.bed
+    output: results/AAAB01-putatEVEs.fna
+    jobid: 233
+    reason: Missing output files: results/AAAB01-putatEVEs.fna; Input files updated by another job: results/AAAB01-mask.bed, results/AAAB01-putatEVEs-unmasked.fna
+    wildcards: asm=AAAB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APHL01-putatEVEs-unmasked.fna, results/APHL01-mask.bed
+    output: results/APHL01-putatEVEs.fna
+    jobid: 68
+    reason: Missing output files: results/APHL01-putatEVEs.fna; Input files updated by another job: results/APHL01-mask.bed, results/APHL01-putatEVEs-unmasked.fna
+    wildcards: asm=APHL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ACXO01-putatEVEs-unmasked.fna, results/ACXO01-mask.bed
+    output: results/ACXO01-putatEVEs.fna
+    jobid: 35
+    reason: Missing output files: results/ACXO01-putatEVEs.fna; Input files updated by another job: results/ACXO01-putatEVEs-unmasked.fna, results/ACXO01-mask.bed
+    wildcards: asm=ACXO01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ADMH02-putatEVEs-unmasked.fna, results/ADMH02-mask.bed
+    output: results/ADMH02-putatEVEs.fna
+    jobid: 156
+    reason: Missing output files: results/ADMH02-putatEVEs.fna; Input files updated by another job: results/ADMH02-putatEVEs-unmasked.fna, results/ADMH02-mask.bed
+    wildcards: asm=ADMH02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCL01-putatEVEs-unmasked.fna, results/APCL01-mask.bed
+    output: results/APCL01-putatEVEs.fna
+    jobid: 79
+    reason: Missing output files: results/APCL01-putatEVEs.fna; Input files updated by another job: results/APCL01-putatEVEs-unmasked.fna, results/APCL01-mask.bed
+    wildcards: asm=APCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCI01-putatEVEs-unmasked.fna, results/APCI01-mask.bed
+    output: results/APCI01-putatEVEs.fna
+    jobid: 244
+    reason: Missing output files: results/APCI01-putatEVEs.fna; Input files updated by another job: results/APCI01-putatEVEs-unmasked.fna, results/APCI01-mask.bed
+    wildcards: asm=APCI01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCK02-putatEVEs-unmasked.fna, results/AXCK02-mask.bed
+    output: results/AXCK02-putatEVEs.fna
+    jobid: 167
+    reason: Missing output files: results/AXCK02-putatEVEs.fna; Input files updated by another job: results/AXCK02-mask.bed, results/AXCK02-putatEVEs-unmasked.fna
+    wildcards: asm=AXCK02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCG01-putatEVEs-unmasked.fna, results/APCG01-mask.bed
+    output: results/APCG01-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/APCG01-putatEVEs.fna; Input files updated by another job: results/APCG01-mask.bed, results/APCG01-putatEVEs-unmasked.fna
+    wildcards: asm=APCG01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCP01-putatEVEs-unmasked.fna, results/AXCP01-mask.bed
+    output: results/AXCP01-putatEVEs.fna
+    jobid: 90
+    reason: Missing output files: results/AXCP01-putatEVEs.fna; Input files updated by another job: results/AXCP01-putatEVEs-unmasked.fna, results/AXCP01-mask.bed
+    wildcards: asm=AXCP01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCH01-putatEVEs-unmasked.fna, results/APCH01-mask.bed
+    output: results/APCH01-putatEVEs.fna
+    jobid: 255
+    reason: Missing output files: results/APCH01-putatEVEs.fna; Input files updated by another job: results/APCH01-mask.bed, results/APCH01-putatEVEs-unmasked.fna
+    wildcards: asm=APCH01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCQ01-putatEVEs-unmasked.fna, results/AXCQ01-mask.bed
+    output: results/AXCQ01-putatEVEs.fna
+    jobid: 13
+    reason: Missing output files: results/AXCQ01-putatEVEs.fna; Input files updated by another job: results/AXCQ01-putatEVEs-unmasked.fna, results/AXCQ01-mask.bed
+    wildcards: asm=AXCQ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCM01-putatEVEs-unmasked.fna, results/AXCM01-mask.bed
+    output: results/AXCM01-putatEVEs.fna
+    jobid: 178
+    reason: Missing output files: results/AXCM01-putatEVEs.fna; Input files updated by another job: results/AXCM01-putatEVEs-unmasked.fna, results/AXCM01-mask.bed
+    wildcards: asm=AXCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCL01-putatEVEs-unmasked.fna, results/AXCL01-mask.bed
+    output: results/AXCL01-putatEVEs.fna
+    jobid: 101
+    reason: Missing output files: results/AXCL01-putatEVEs.fna; Input files updated by another job: results/AXCL01-mask.bed, results/AXCL01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ATLZ01-putatEVEs-unmasked.fna, results/ATLZ01-mask.bed
+    output: results/ATLZ01-putatEVEs.fna
+    jobid: 189
+    reason: Missing output files: results/ATLZ01-putatEVEs.fna; Input files updated by another job: results/ATLZ01-mask.bed, results/ATLZ01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/AXCN01-putatEVEs-unmasked.fna, results/AXCN01-mask.bed
+    output: results/AXCN01-putatEVEs.fna
+    jobid: 24
+    reason: Missing output files: results/AXCN01-putatEVEs.fna; Input files updated by another job: results/AXCN01-mask.bed, results/AXCN01-putatEVEs-unmasked.fna
+    wildcards: asm=AXCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/APCJ01-putatEVEs-unmasked.fna, results/APCJ01-mask.bed
+    output: results/APCJ01-putatEVEs.fna
+    jobid: 112
+    reason: Missing output files: results/APCJ01-putatEVEs.fna; Input files updated by another job: results/APCJ01-mask.bed, results/APCJ01-putatEVEs-unmasked.fna
+    wildcards: asm=APCJ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 12:45:05 2024]
+localrule mask_putatEVEs:
+    input: results/ABKP02-putatEVEs-unmasked.fna, results/ABKP02-mask.bed
+    output: results/ABKP02-putatEVEs.fna
+    jobid: 200
+    reason: Missing output files: results/ABKP02-putatEVEs.fna; Input files updated by another job: results/ABKP02-mask.bed, results/ABKP02-putatEVEs-unmasked.fna
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:45:05 2024]
+Finished job 211.
+73 of 241 steps (30%) done
+[Fri Jul  5 12:45:05 2024]
+Finished job 123.
+74 of 241 steps (31%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 46.
+75 of 241 steps (31%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 134.
+76 of 241 steps (32%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 222.
+77 of 241 steps (32%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 57.
+78 of 241 steps (32%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 145.
+79 of 241 steps (33%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 233.
+80 of 241 steps (33%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 68.
+81 of 241 steps (34%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 35.
+82 of 241 steps (34%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 156.
+83 of 241 steps (34%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 79.
+84 of 241 steps (35%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 244.
+85 of 241 steps (35%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 167.
+86 of 241 steps (36%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 2.
+87 of 241 steps (36%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 90.
+88 of 241 steps (37%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 255.
+89 of 241 steps (37%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 13.
+90 of 241 steps (37%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 178.
+91 of 241 steps (38%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 101.
+92 of 241 steps (38%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 189.
+93 of 241 steps (39%) done
+Select jobs to execute...
+[Fri Jul  5 12:45:06 2024]
+Finished job 24.
+94 of 241 steps (39%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 200.
+95 of 241 steps (39%) done
+[Fri Jul  5 12:45:06 2024]
+Finished job 112.
+96 of 241 steps (40%) done
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:06 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCJ01-putatEVEs.fna
+    output: results/APCJ01-retro-vdb.o6
+    jobid: 121
+    reason: Missing output files: results/APCJ01-retro-vdb.o6; Input files updated by another job: results/APCJ01-putatEVEs.fna
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Fri Jul  5 12:45:06 2024]
+Finished job 121.
+97 of 241 steps (40%) done
+Execute 1 jobs...
+
+[Fri Jul  5 12:45:06 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APHL01-putatEVEs.fna
+    output: results/APHL01-retro-udb.o6
+    jobid: 76
+    reason: Missing output files: results/APHL01-retro-udb.o6; Input files updated by another job: results/APHL01-putatEVEs.fna
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:52:55 2024]
+Finished job 76.
+98 of 241 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:52:55 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCL01-putatEVEs.fna
+    output: results/APCL01-retro-vdb.o6
+    jobid: 88
+    reason: Missing output files: results/APCL01-retro-vdb.o6; Input files updated by another job: results/APCL01-putatEVEs.fna
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 12:52:56 2024]
+Finished job 88.
+99 of 241 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 12:52:56 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AAAB01-putatEVEs.fna
+    output: results/AAAB01-retro-udb.o6
+    jobid: 241
+    reason: Missing output files: results/AAAB01-retro-udb.o6; Input files updated by another job: results/AAAB01-putatEVEs.fna
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:09:54 2024]
+Finished job 241.
+100 of 241 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:09:54 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCI01-putatEVEs.fna
+    output: results/APCI01-retro-vdb.o6
+    jobid: 253
+    reason: Missing output files: results/APCI01-retro-vdb.o6; Input files updated by another job: results/APCI01-putatEVEs.fna
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:09:56 2024]
+Finished job 253.
+101 of 241 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:09:56 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ADMH02-putatEVEs.fna
+    output: results/ADMH02-retro-vdb.o6
+    jobid: 165
+    reason: Missing output files: results/ADMH02-retro-vdb.o6; Input files updated by another job: results/ADMH02-putatEVEs.fna
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:09:57 2024]
+Finished job 165.
+102 of 241 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:09:57 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ADMH02-putatEVEs.fna
+    output: results/ADMH02-retro-udb.o6
+    jobid: 164
+    reason: Missing output files: results/ADMH02-retro-udb.o6; Input files updated by another job: results/ADMH02-putatEVEs.fna
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:28:47 2024]
+Finished job 164.
+103 of 241 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:28:48 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ADMH02-retro-udb.o6, results/ADMH02-retro-vdb.o6
+    output: results/ADMH02-retro-notax.bed
+    jobid: 163
+    reason: Missing output files: results/ADMH02-retro-notax.bed; Input files updated by another job: results/ADMH02-retro-udb.o6, results/ADMH02-retro-vdb.o6
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:28:48 2024]
+Finished job 163.
+104 of 241 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:28:48 2024]
+localrule taxize_putatEVEs:
+    input: results/ADMH02-retro-notax.bed
+    output: results/ADMH02-retro.bed
+    jobid: 162
+    reason: Missing output files: results/ADMH02-retro.bed; Input files updated by another job: results/ADMH02-retro-notax.bed
+    wildcards: asm=ADMH02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:28:53 2024]
+Finished job 162.
+105 of 241 steps (44%) done
+Removing temporary output results/ADMH02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:28:53 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APHL01-putatEVEs.fna
+    output: results/APHL01-retro-vdb.o6
+    jobid: 77
+    reason: Missing output files: results/APHL01-retro-vdb.o6; Input files updated by another job: results/APHL01-putatEVEs.fna
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:28:54 2024]
+Finished job 77.
+106 of 241 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:28:54 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APHL01-retro-udb.o6, results/APHL01-retro-vdb.o6
+    output: results/APHL01-retro-notax.bed
+    jobid: 75
+    reason: Missing output files: results/APHL01-retro-notax.bed; Input files updated by another job: results/APHL01-retro-vdb.o6, results/APHL01-retro-udb.o6
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:28:54 2024]
+Finished job 75.
+107 of 241 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:28:54 2024]
+localrule taxize_putatEVEs:
+    input: results/APHL01-retro-notax.bed
+    output: results/APHL01-retro.bed
+    jobid: 74
+    reason: Missing output files: results/APHL01-retro.bed; Input files updated by another job: results/APHL01-retro-notax.bed
+    wildcards: asm=APHL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:29:02 2024]
+Finished job 74.
+108 of 241 steps (45%) done
+Removing temporary output results/APHL01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:29:02 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ATLV01-putatEVEs.fna
+    output: results/ATLV01-retro-udb.o6
+    jobid: 153
+    reason: Missing output files: results/ATLV01-retro-udb.o6; Input files updated by another job: results/ATLV01-putatEVEs.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:34:13 2024]
+Finished job 153.
+109 of 241 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:34:13 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCN01-putatEVEs.fna
+    output: results/AXCN01-retro-vdb.o6
+    jobid: 33
+    reason: Missing output files: results/AXCN01-retro-vdb.o6; Input files updated by another job: results/AXCN01-putatEVEs.fna
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:34:14 2024]
+Finished job 33.
+110 of 241 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:34:14 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCK02-putatEVEs.fna
+    output: results/AXCK02-retro-vdb.o6
+    jobid: 176
+    reason: Missing output files: results/AXCK02-retro-vdb.o6; Input files updated by another job: results/AXCK02-putatEVEs.fna
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:34:14 2024]
+Finished job 176.
+111 of 241 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:34:14 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ATLZ01-putatEVEs.fna
+    output: results/ATLZ01-retro-vdb.o6
+    jobid: 198
+    reason: Missing output files: results/ATLZ01-retro-vdb.o6; Input files updated by another job: results/ATLZ01-putatEVEs.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:34:15 2024]
+Finished job 198.
+112 of 241 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:34:15 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCG01-putatEVEs.fna
+    output: results/APCG01-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/APCG01-retro-vdb.o6; Input files updated by another job: results/APCG01-putatEVEs.fna
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:34:15 2024]
+Finished job 11.
+113 of 241 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:34:15 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCL01-putatEVEs.fna
+    output: results/AXCL01-retro-udb.o6
+    jobid: 109
+    reason: Missing output files: results/AXCL01-retro-udb.o6; Input files updated by another job: results/AXCL01-putatEVEs.fna
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:39:03 2024]
+Finished job 109.
+114 of 241 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:39:03 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCL01-putatEVEs.fna
+    output: results/APCL01-retro-udb.o6
+    jobid: 87
+    reason: Missing output files: results/APCL01-retro-udb.o6; Input files updated by another job: results/APCL01-putatEVEs.fna
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:43:57 2024]
+Finished job 87.
+115 of 241 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:43:57 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCL01-retro-udb.o6, results/APCL01-retro-vdb.o6
+    output: results/APCL01-retro-notax.bed
+    jobid: 86
+    reason: Missing output files: results/APCL01-retro-notax.bed; Input files updated by another job: results/APCL01-retro-vdb.o6, results/APCL01-retro-udb.o6
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:43:57 2024]
+Finished job 86.
+116 of 241 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:43:57 2024]
+localrule taxize_putatEVEs:
+    input: results/APCL01-retro-notax.bed
+    output: results/APCL01-retro.bed
+    jobid: 85
+    reason: Missing output files: results/APCL01-retro.bed; Input files updated by another job: results/APCL01-retro-notax.bed
+    wildcards: asm=APCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:43:59 2024]
+Finished job 85.
+117 of 241 steps (49%) done
+Removing temporary output results/APCL01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:43:59 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ATLZ01-putatEVEs.fna
+    output: results/ATLZ01-retro-udb.o6
+    jobid: 197
+    reason: Missing output files: results/ATLZ01-retro-udb.o6; Input files updated by another job: results/ATLZ01-putatEVEs.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:48:32 2024]
+Finished job 197.
+118 of 241 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:48:32 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ATLZ01-retro-udb.o6, results/ATLZ01-retro-vdb.o6
+    output: results/ATLZ01-retro-notax.bed
+    jobid: 196
+    reason: Missing output files: results/ATLZ01-retro-notax.bed; Input files updated by another job: results/ATLZ01-retro-udb.o6, results/ATLZ01-retro-vdb.o6
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:48:32 2024]
+Finished job 196.
+119 of 241 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:48:32 2024]
+localrule taxize_putatEVEs:
+    input: results/ATLZ01-retro-notax.bed
+    output: results/ATLZ01-retro.bed
+    jobid: 195
+    reason: Missing output files: results/ATLZ01-retro.bed; Input files updated by another job: results/ATLZ01-retro-notax.bed
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:48:34 2024]
+Finished job 195.
+120 of 241 steps (50%) done
+Removing temporary output results/ATLZ01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:48:34 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ABKP02-putatEVEs.fna
+    output: results/ABKP02-retro-vdb.o6
+    jobid: 209
+    reason: Missing output files: results/ABKP02-retro-vdb.o6; Input files updated by another job: results/ABKP02-putatEVEs.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:48:35 2024]
+Finished job 209.
+121 of 241 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:48:35 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ACXO01-putatEVEs.fna
+    output: results/ACXO01-retro-vdb.o6
+    jobid: 44
+    reason: Missing output files: results/ACXO01-retro-vdb.o6; Input files updated by another job: results/ACXO01-putatEVEs.fna
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:48:35 2024]
+Finished job 44.
+122 of 241 steps (51%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:48:35 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCJ01-putatEVEs.fna
+    output: results/APCJ01-retro-udb.o6
+    jobid: 120
+    reason: Missing output files: results/APCJ01-retro-udb.o6; Input files updated by another job: results/APCJ01-putatEVEs.fna
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:53:15 2024]
+Finished job 120.
+123 of 241 steps (51%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:53:15 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCN01-putatEVEs.fna
+    output: results/AXCN01-retro-udb.o6
+    jobid: 32
+    reason: Missing output files: results/AXCN01-retro-udb.o6; Input files updated by another job: results/AXCN01-putatEVEs.fna
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:57:47 2024]
+Finished job 32.
+124 of 241 steps (51%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:57:47 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCJ01-retro-udb.o6, results/APCJ01-retro-vdb.o6
+    output: results/APCJ01-retro-notax.bed
+    jobid: 119
+    reason: Missing output files: results/APCJ01-retro-notax.bed; Input files updated by another job: results/APCJ01-retro-udb.o6, results/APCJ01-retro-vdb.o6
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:57:47 2024]
+Finished job 119.
+125 of 241 steps (52%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:57:47 2024]
+localrule taxize_putatEVEs:
+    input: results/APCJ01-retro-notax.bed
+    output: results/APCJ01-retro.bed
+    jobid: 118
+    reason: Missing output files: results/APCJ01-retro.bed; Input files updated by another job: results/APCJ01-retro-notax.bed
+    wildcards: asm=APCJ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 13:57:49 2024]
+Finished job 118.
+126 of 241 steps (52%) done
+Removing temporary output results/APCJ01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 13:57:49 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCQ01-putatEVEs.fna
+    output: results/AXCQ01-retro-udb.o6
+    jobid: 21
+    reason: Missing output files: results/AXCQ01-retro-udb.o6; Input files updated by another job: results/AXCQ01-putatEVEs.fna
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:03:35 2024]
+Finished job 21.
+127 of 241 steps (53%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:03:35 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCN01-putatEVEs.fna
+    output: results/APCN01-retro-udb.o6
+    jobid: 219
+    reason: Missing output files: results/APCN01-retro-udb.o6; Input files updated by another job: results/APCN01-putatEVEs.fna
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:09:10 2024]
+Finished job 219.
+128 of 241 steps (53%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:09:10 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ALPR02-putatEVEs.fna
+    output: results/ALPR02-retro-udb.o6
+    jobid: 54
+    reason: Missing output files: results/ALPR02-retro-udb.o6; Input files updated by another job: results/ALPR02-putatEVEs.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:13:39 2024]
+Finished job 54.
+129 of 241 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:13:39 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JXXA01-putatEVEs.fna
+    output: results/JXXA01-retro-udb.o6
+    jobid: 142
+    reason: Missing output files: results/JXXA01-retro-udb.o6; Input files updated by another job: results/JXXA01-putatEVEs.fna
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:18:09 2024]
+Finished job 142.
+130 of 241 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:18:09 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCM01-putatEVEs.fna
+    output: results/APCM01-retro-vdb.o6
+    jobid: 231
+    reason: Missing output files: results/APCM01-retro-vdb.o6; Input files updated by another job: results/APCM01-putatEVEs.fna
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:18:09 2024]
+Finished job 231.
+131 of 241 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:18:09 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JXXB01-putatEVEs.fna
+    output: results/JXXB01-retro-vdb.o6
+    jobid: 66
+    reason: Missing output files: results/JXXB01-retro-vdb.o6; Input files updated by another job: results/JXXB01-putatEVEs.fna
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:18:10 2024]
+Finished job 66.
+132 of 241 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:18:10 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JXXB01-putatEVEs.fna
+    output: results/JXXB01-retro-udb.o6
+    jobid: 65
+    reason: Missing output files: results/JXXB01-retro-udb.o6; Input files updated by another job: results/JXXB01-putatEVEs.fna
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:13 2024]
+Finished job 65.
+133 of 241 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:13 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JXXB01-retro-udb.o6, results/JXXB01-retro-vdb.o6
+    output: results/JXXB01-retro-notax.bed
+    jobid: 64
+    reason: Missing output files: results/JXXB01-retro-notax.bed; Input files updated by another job: results/JXXB01-retro-vdb.o6, results/JXXB01-retro-udb.o6
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:14 2024]
+Finished job 64.
+134 of 241 steps (56%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:14 2024]
+localrule taxize_putatEVEs:
+    input: results/JXXB01-retro-notax.bed
+    output: results/JXXB01-retro.bed
+    jobid: 63
+    reason: Missing output files: results/JXXB01-retro.bed; Input files updated by another job: results/JXXB01-retro-notax.bed
+    wildcards: asm=JXXB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:16 2024]
+Finished job 63.
+135 of 241 steps (56%) done
+Removing temporary output results/JXXB01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:16 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AAAB01-putatEVEs.fna
+    output: results/AAAB01-retro-vdb.o6
+    jobid: 242
+    reason: Missing output files: results/AAAB01-retro-vdb.o6; Input files updated by another job: results/AAAB01-putatEVEs.fna
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:16 2024]
+Finished job 242.
+136 of 241 steps (56%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:16 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AAAB01-retro-udb.o6, results/AAAB01-retro-vdb.o6
+    output: results/AAAB01-retro-notax.bed
+    jobid: 240
+    reason: Missing output files: results/AAAB01-retro-notax.bed; Input files updated by another job: results/AAAB01-retro-vdb.o6, results/AAAB01-retro-udb.o6
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:16 2024]
+Finished job 240.
+137 of 241 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:16 2024]
+localrule taxize_putatEVEs:
+    input: results/AAAB01-retro-notax.bed
+    output: results/AAAB01-retro.bed
+    jobid: 239
+    reason: Missing output files: results/AAAB01-retro.bed; Input files updated by another job: results/AAAB01-retro-notax.bed
+    wildcards: asm=AAAB01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:19 2024]
+Finished job 239.
+138 of 241 steps (57%) done
+Removing temporary output results/AAAB01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:19 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JXXA01-putatEVEs.fna
+    output: results/JXXA01-retro-vdb.o6
+    jobid: 143
+    reason: Missing output files: results/JXXA01-retro-vdb.o6; Input files updated by another job: results/JXXA01-putatEVEs.fna
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:19 2024]
+Finished job 143.
+139 of 241 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:19 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JXXA01-retro-udb.o6, results/JXXA01-retro-vdb.o6
+    output: results/JXXA01-retro-notax.bed
+    jobid: 141
+    reason: Missing output files: results/JXXA01-retro-notax.bed; Input files updated by another job: results/JXXA01-retro-udb.o6, results/JXXA01-retro-vdb.o6
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:19 2024]
+Finished job 141.
+140 of 241 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:19 2024]
+localrule taxize_putatEVEs:
+    input: results/JXXA01-retro-notax.bed
+    output: results/JXXA01-retro.bed
+    jobid: 140
+    reason: Missing output files: results/JXXA01-retro.bed; Input files updated by another job: results/JXXA01-retro-notax.bed
+    wildcards: asm=JXXA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:21 2024]
+Finished job 140.
+141 of 241 steps (59%) done
+Removing temporary output results/JXXA01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:21 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCN01-retro-udb.o6, results/AXCN01-retro-vdb.o6
+    output: results/AXCN01-retro-notax.bed
+    jobid: 31
+    reason: Missing output files: results/AXCN01-retro-notax.bed; Input files updated by another job: results/AXCN01-retro-vdb.o6, results/AXCN01-retro-udb.o6
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:21 2024]
+Finished job 31.
+142 of 241 steps (59%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:21 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCN01-retro-notax.bed
+    output: results/AXCN01-retro.bed
+    jobid: 30
+    reason: Missing output files: results/AXCN01-retro.bed; Input files updated by another job: results/AXCN01-retro-notax.bed
+    wildcards: asm=AXCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:23:23 2024]
+Finished job 30.
+143 of 241 steps (59%) done
+Removing temporary output results/AXCN01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:23:23 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCM01-putatEVEs.fna
+    output: results/APCM01-retro-udb.o6
+    jobid: 230
+    reason: Missing output files: results/APCM01-retro-udb.o6; Input files updated by another job: results/APCM01-putatEVEs.fna
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:01 2024]
+Finished job 230.
+144 of 241 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:01 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCM01-retro-udb.o6, results/APCM01-retro-vdb.o6
+    output: results/APCM01-retro-notax.bed
+    jobid: 229
+    reason: Missing output files: results/APCM01-retro-notax.bed; Input files updated by another job: results/APCM01-retro-udb.o6, results/APCM01-retro-vdb.o6
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:01 2024]
+Finished job 229.
+145 of 241 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:01 2024]
+localrule taxize_putatEVEs:
+    input: results/APCM01-retro-notax.bed
+    output: results/APCM01-retro.bed
+    jobid: 228
+    reason: Missing output files: results/APCM01-retro.bed; Input files updated by another job: results/APCM01-retro-notax.bed
+    wildcards: asm=APCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:03 2024]
+Finished job 228.
+146 of 241 steps (61%) done
+Removing temporary output results/APCM01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:03 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ALPR02-putatEVEs.fna
+    output: results/ALPR02-retro-vdb.o6
+    jobid: 55
+    reason: Missing output files: results/ALPR02-retro-vdb.o6; Input files updated by another job: results/ALPR02-putatEVEs.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:04 2024]
+Finished job 55.
+147 of 241 steps (61%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:04 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ALPR02-retro-udb.o6, results/ALPR02-retro-vdb.o6
+    output: results/ALPR02-retro-notax.bed
+    jobid: 53
+    reason: Missing output files: results/ALPR02-retro-notax.bed; Input files updated by another job: results/ALPR02-retro-vdb.o6, results/ALPR02-retro-udb.o6
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:04 2024]
+Finished job 53.
+148 of 241 steps (61%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:04 2024]
+localrule taxize_putatEVEs:
+    input: results/ALPR02-retro-notax.bed
+    output: results/ALPR02-retro.bed
+    jobid: 52
+    reason: Missing output files: results/ALPR02-retro.bed; Input files updated by another job: results/ALPR02-retro-notax.bed
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:06 2024]
+Finished job 52.
+149 of 241 steps (62%) done
+Removing temporary output results/ALPR02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:06 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ATLV01-putatEVEs.fna
+    output: results/ATLV01-retro-vdb.o6
+    jobid: 154
+    reason: Missing output files: results/ATLV01-retro-vdb.o6; Input files updated by another job: results/ATLV01-putatEVEs.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:07 2024]
+Finished job 154.
+150 of 241 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:07 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ATLV01-retro-udb.o6, results/ATLV01-retro-vdb.o6
+    output: results/ATLV01-retro-notax.bed
+    jobid: 152
+    reason: Missing output files: results/ATLV01-retro-notax.bed; Input files updated by another job: results/ATLV01-retro-udb.o6, results/ATLV01-retro-vdb.o6
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:07 2024]
+Finished job 152.
+151 of 241 steps (63%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:07 2024]
+localrule taxize_putatEVEs:
+    input: results/ATLV01-retro-notax.bed
+    output: results/ATLV01-retro.bed
+    jobid: 151
+    reason: Missing output files: results/ATLV01-retro.bed; Input files updated by another job: results/ATLV01-retro-notax.bed
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:28:09 2024]
+Finished job 151.
+152 of 241 steps (63%) done
+Removing temporary output results/ATLV01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:28:09 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCK01-putatEVEs.fna
+    output: results/APCK01-retro-udb.o6
+    jobid: 131
+    reason: Missing output files: results/APCK01-retro-udb.o6; Input files updated by another job: results/APCK01-putatEVEs.fna
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:32:38 2024]
+Finished job 131.
+153 of 241 steps (63%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:32:38 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCI01-putatEVEs.fna
+    output: results/APCI01-retro-udb.o6
+    jobid: 252
+    reason: Missing output files: results/APCI01-retro-udb.o6; Input files updated by another job: results/APCI01-putatEVEs.fna
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:37:05 2024]
+Finished job 252.
+154 of 241 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:37:05 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCI01-retro-udb.o6, results/APCI01-retro-vdb.o6
+    output: results/APCI01-retro-notax.bed
+    jobid: 251
+    reason: Missing output files: results/APCI01-retro-notax.bed; Input files updated by another job: results/APCI01-retro-udb.o6, results/APCI01-retro-vdb.o6
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:37:05 2024]
+Finished job 251.
+155 of 241 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:37:05 2024]
+localrule taxize_putatEVEs:
+    input: results/APCI01-retro-notax.bed
+    output: results/APCI01-retro.bed
+    jobid: 250
+    reason: Missing output files: results/APCI01-retro.bed; Input files updated by another job: results/APCI01-retro-notax.bed
+    wildcards: asm=APCI01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:37:08 2024]
+Finished job 250.
+156 of 241 steps (65%) done
+Removing temporary output results/APCI01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:37:08 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCP01-putatEVEs.fna
+    output: results/AXCP01-retro-vdb.o6
+    jobid: 99
+    reason: Missing output files: results/AXCP01-retro-vdb.o6; Input files updated by another job: results/AXCP01-putatEVEs.fna
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:37:08 2024]
+Finished job 99.
+157 of 241 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:37:08 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCH01-putatEVEs.fna
+    output: results/APCH01-retro-vdb.o6
+    jobid: 264
+    reason: Missing output files: results/APCH01-retro-vdb.o6; Input files updated by another job: results/APCH01-putatEVEs.fna
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:37:09 2024]
+Finished job 264.
+158 of 241 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:37:09 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCK02-putatEVEs.fna
+    output: results/AXCK02-retro-udb.o6
+    jobid: 175
+    reason: Missing output files: results/AXCK02-retro-udb.o6; Input files updated by another job: results/AXCK02-putatEVEs.fna
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:41:56 2024]
+Finished job 175.
+159 of 241 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:41:56 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCK02-retro-udb.o6, results/AXCK02-retro-vdb.o6
+    output: results/AXCK02-retro-notax.bed
+    jobid: 174
+    reason: Missing output files: results/AXCK02-retro-notax.bed; Input files updated by another job: results/AXCK02-retro-udb.o6, results/AXCK02-retro-vdb.o6
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:41:56 2024]
+Finished job 174.
+160 of 241 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:41:56 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCK02-retro-notax.bed
+    output: results/AXCK02-retro.bed
+    jobid: 173
+    reason: Missing output files: results/AXCK02-retro.bed; Input files updated by another job: results/AXCK02-retro-notax.bed
+    wildcards: asm=AXCK02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:41:58 2024]
+Finished job 173.
+161 of 241 steps (67%) done
+Removing temporary output results/AXCK02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:41:58 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCN01-putatEVEs.fna
+    output: results/APCN01-retro-vdb.o6
+    jobid: 220
+    reason: Missing output files: results/APCN01-retro-vdb.o6; Input files updated by another job: results/APCN01-putatEVEs.fna
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:41:59 2024]
+Finished job 220.
+162 of 241 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:41:59 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCN01-retro-udb.o6, results/APCN01-retro-vdb.o6
+    output: results/APCN01-retro-notax.bed
+    jobid: 218
+    reason: Missing output files: results/APCN01-retro-notax.bed; Input files updated by another job: results/APCN01-retro-vdb.o6, results/APCN01-retro-udb.o6
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:41:59 2024]
+Finished job 218.
+163 of 241 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:41:59 2024]
+localrule taxize_putatEVEs:
+    input: results/APCN01-retro-notax.bed
+    output: results/APCN01-retro.bed
+    jobid: 217
+    reason: Missing output files: results/APCN01-retro.bed; Input files updated by another job: results/APCN01-retro-notax.bed
+    wildcards: asm=APCN01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:42:01 2024]
+Finished job 217.
+164 of 241 steps (68%) done
+Removing temporary output results/APCN01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:42:01 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCG01-putatEVEs.fna
+    output: results/APCG01-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/APCG01-retro-udb.o6; Input files updated by another job: results/APCG01-putatEVEs.fna
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:47:50 2024]
+Finished job 10.
+165 of 241 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:47:50 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCG01-retro-udb.o6, results/APCG01-retro-vdb.o6
+    output: results/APCG01-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/APCG01-retro-notax.bed; Input files updated by another job: results/APCG01-retro-vdb.o6, results/APCG01-retro-udb.o6
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:47:50 2024]
+Finished job 9.
+166 of 241 steps (69%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:47:50 2024]
+localrule taxize_putatEVEs:
+    input: results/APCG01-retro-notax.bed
+    output: results/APCG01-retro.bed
+    jobid: 8
+    reason: Missing output files: results/APCG01-retro.bed; Input files updated by another job: results/APCG01-retro-notax.bed
+    wildcards: asm=APCG01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:47:52 2024]
+Finished job 8.
+167 of 241 steps (69%) done
+Removing temporary output results/APCG01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:47:53 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ABKP02-putatEVEs.fna
+    output: results/ABKP02-retro-udb.o6
+    jobid: 208
+    reason: Missing output files: results/ABKP02-retro-udb.o6; Input files updated by another job: results/ABKP02-putatEVEs.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:52:30 2024]
+Finished job 208.
+168 of 241 steps (70%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:52:30 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ACXO01-putatEVEs.fna
+    output: results/ACXO01-retro-udb.o6
+    jobid: 43
+    reason: Missing output files: results/ACXO01-retro-udb.o6; Input files updated by another job: results/ACXO01-putatEVEs.fna
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:03 2024]
+Finished job 43.
+169 of 241 steps (70%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:03 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/APCK01-putatEVEs.fna
+    output: results/APCK01-retro-vdb.o6
+    jobid: 132
+    reason: Missing output files: results/APCK01-retro-vdb.o6; Input files updated by another job: results/APCK01-putatEVEs.fna
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:03 2024]
+Finished job 132.
+170 of 241 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:03 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCK01-retro-udb.o6, results/APCK01-retro-vdb.o6
+    output: results/APCK01-retro-notax.bed
+    jobid: 130
+    reason: Missing output files: results/APCK01-retro-notax.bed; Input files updated by another job: results/APCK01-retro-udb.o6, results/APCK01-retro-vdb.o6
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:03 2024]
+Finished job 130.
+171 of 241 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:03 2024]
+localrule taxize_putatEVEs:
+    input: results/APCK01-retro-notax.bed
+    output: results/APCK01-retro.bed
+    jobid: 129
+    reason: Missing output files: results/APCK01-retro.bed; Input files updated by another job: results/APCK01-retro-notax.bed
+    wildcards: asm=APCK01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:06 2024]
+Finished job 129.
+172 of 241 steps (71%) done
+Removing temporary output results/APCK01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:06 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ACXO01-retro-udb.o6, results/ACXO01-retro-vdb.o6
+    output: results/ACXO01-retro-notax.bed
+    jobid: 42
+    reason: Missing output files: results/ACXO01-retro-notax.bed; Input files updated by another job: results/ACXO01-retro-vdb.o6, results/ACXO01-retro-udb.o6
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:06 2024]
+Finished job 42.
+173 of 241 steps (72%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:06 2024]
+localrule taxize_putatEVEs:
+    input: results/ACXO01-retro-notax.bed
+    output: results/ACXO01-retro.bed
+    jobid: 41
+    reason: Missing output files: results/ACXO01-retro.bed; Input files updated by another job: results/ACXO01-retro-notax.bed
+    wildcards: asm=ACXO01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:08 2024]
+Finished job 41.
+174 of 241 steps (72%) done
+Removing temporary output results/ACXO01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:08 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ABKP02-retro-udb.o6, results/ABKP02-retro-vdb.o6
+    output: results/ABKP02-retro-notax.bed
+    jobid: 207
+    reason: Missing output files: results/ABKP02-retro-notax.bed; Input files updated by another job: results/ABKP02-retro-vdb.o6, results/ABKP02-retro-udb.o6
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:08 2024]
+Finished job 207.
+175 of 241 steps (73%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:08 2024]
+localrule taxize_putatEVEs:
+    input: results/ABKP02-retro-notax.bed
+    output: results/ABKP02-retro.bed
+    jobid: 206
+    reason: Missing output files: results/ABKP02-retro.bed; Input files updated by another job: results/ABKP02-retro-notax.bed
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:10 2024]
+Finished job 206.
+176 of 241 steps (73%) done
+Removing temporary output results/ABKP02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:10 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCL01-putatEVEs.fna
+    output: results/AXCL01-retro-vdb.o6
+    jobid: 110
+    reason: Missing output files: results/AXCL01-retro-vdb.o6; Input files updated by another job: results/AXCL01-putatEVEs.fna
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 14:57:11 2024]
+Finished job 110.
+177 of 241 steps (73%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 14:57:11 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCM01-putatEVEs.fna
+    output: results/AXCM01-retro-udb.o6
+    jobid: 186
+    reason: Missing output files: results/AXCM01-retro-udb.o6; Input files updated by another job: results/AXCM01-putatEVEs.fna
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:38 2024]
+Finished job 186.
+178 of 241 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:38 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCL01-retro-udb.o6, results/AXCL01-retro-vdb.o6
+    output: results/AXCL01-retro-notax.bed
+    jobid: 108
+    reason: Missing output files: results/AXCL01-retro-notax.bed; Input files updated by another job: results/AXCL01-retro-vdb.o6, results/AXCL01-retro-udb.o6
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:39 2024]
+Finished job 108.
+179 of 241 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:39 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCL01-retro-notax.bed
+    output: results/AXCL01-retro.bed
+    jobid: 107
+    reason: Missing output files: results/AXCL01-retro.bed; Input files updated by another job: results/AXCL01-retro-notax.bed
+    wildcards: asm=AXCL01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:41 2024]
+Finished job 107.
+180 of 241 steps (75%) done
+Removing temporary output results/AXCL01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:41 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCM01-putatEVEs.fna
+    output: results/AXCM01-retro-vdb.o6
+    jobid: 187
+    reason: Missing output files: results/AXCM01-retro-vdb.o6; Input files updated by another job: results/AXCM01-putatEVEs.fna
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:41 2024]
+Finished job 187.
+181 of 241 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:41 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCM01-retro-udb.o6, results/AXCM01-retro-vdb.o6
+    output: results/AXCM01-retro-notax.bed
+    jobid: 185
+    reason: Missing output files: results/AXCM01-retro-notax.bed; Input files updated by another job: results/AXCM01-retro-udb.o6, results/AXCM01-retro-vdb.o6
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:41 2024]
+Finished job 185.
+182 of 241 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:41 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCM01-retro-notax.bed
+    output: results/AXCM01-retro.bed
+    jobid: 184
+    reason: Missing output files: results/AXCM01-retro.bed; Input files updated by another job: results/AXCM01-retro-notax.bed
+    wildcards: asm=AXCM01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:02:44 2024]
+Finished job 184.
+183 of 241 steps (76%) done
+Removing temporary output results/AXCM01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:02:44 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/APCH01-putatEVEs.fna
+    output: results/APCH01-retro-udb.o6
+    jobid: 263
+    reason: Missing output files: results/APCH01-retro-udb.o6; Input files updated by another job: results/APCH01-putatEVEs.fna
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:07:18 2024]
+Finished job 263.
+184 of 241 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:07:18 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/APCH01-retro-udb.o6, results/APCH01-retro-vdb.o6
+    output: results/APCH01-retro-notax.bed
+    jobid: 262
+    reason: Missing output files: results/APCH01-retro-notax.bed; Input files updated by another job: results/APCH01-retro-vdb.o6, results/APCH01-retro-udb.o6
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:07:18 2024]
+Finished job 262.
+185 of 241 steps (77%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:07:18 2024]
+localrule taxize_putatEVEs:
+    input: results/APCH01-retro-notax.bed
+    output: results/APCH01-retro.bed
+    jobid: 261
+    reason: Missing output files: results/APCH01-retro.bed; Input files updated by another job: results/APCH01-retro-notax.bed
+    wildcards: asm=APCH01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:07:20 2024]
+Finished job 261.
+186 of 241 steps (77%) done
+Removing temporary output results/APCH01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:07:20 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/AXCQ01-putatEVEs.fna
+    output: results/AXCQ01-retro-vdb.o6
+    jobid: 22
+    reason: Missing output files: results/AXCQ01-retro-vdb.o6; Input files updated by another job: results/AXCQ01-putatEVEs.fna
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:07:21 2024]
+Finished job 22.
+187 of 241 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:07:21 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/AXCP01-putatEVEs.fna
+    output: results/AXCP01-retro-udb.o6
+    jobid: 98
+    reason: Missing output files: results/AXCP01-retro-udb.o6; Input files updated by another job: results/AXCP01-putatEVEs.fna
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:09 2024]
+Finished job 98.
+188 of 241 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:09 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCP01-retro-udb.o6, results/AXCP01-retro-vdb.o6
+    output: results/AXCP01-retro-notax.bed
+    jobid: 97
+    reason: Missing output files: results/AXCP01-retro-notax.bed; Input files updated by another job: results/AXCP01-retro-vdb.o6, results/AXCP01-retro-udb.o6
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:09 2024]
+Finished job 97.
+189 of 241 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:09 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCP01-retro-notax.bed
+    output: results/AXCP01-retro.bed
+    jobid: 96
+    reason: Missing output files: results/AXCP01-retro.bed; Input files updated by another job: results/AXCP01-retro-notax.bed
+    wildcards: asm=AXCP01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:11 2024]
+Finished job 96.
+190 of 241 steps (79%) done
+Removing temporary output results/AXCP01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:11 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/AXCQ01-retro-udb.o6, results/AXCQ01-retro-vdb.o6
+    output: results/AXCQ01-retro-notax.bed
+    jobid: 20
+    reason: Missing output files: results/AXCQ01-retro-notax.bed; Input files updated by another job: results/AXCQ01-retro-udb.o6, results/AXCQ01-retro-vdb.o6
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:11 2024]
+Finished job 20.
+191 of 241 steps (79%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:11 2024]
+localrule taxize_putatEVEs:
+    input: results/AXCQ01-retro-notax.bed
+    output: results/AXCQ01-retro.bed
+    jobid: 19
+    reason: Missing output files: results/AXCQ01-retro.bed; Input files updated by another job: results/AXCQ01-retro-notax.bed
+    wildcards: asm=AXCQ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:14 2024]
+Finished job 19.
+192 of 241 steps (80%) done
+Removing temporary output results/AXCQ01-retro-notax.bed.
+Select jobs to execute...
+Execute 24 jobs...
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/JXXA01-retro.bed
+    output: results/JXXA01-validatEVEs.tsv, results/JXXA01-validatEVEs.pdf
+    jobid: 139
+    reason: Missing output files: results/JXXA01-validatEVEs.pdf, results/JXXA01-validatEVEs.tsv; Input files updated by another job: results/JXXA01-retro.bed
+    wildcards: asm=JXXA01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCM01-retro.bed
+    output: results/APCM01-validatEVEs.tsv, results/APCM01-validatEVEs.pdf
+    jobid: 227
+    reason: Missing output files: results/APCM01-validatEVEs.tsv, results/APCM01-validatEVEs.pdf; Input files updated by another job: results/APCM01-retro.bed
+    wildcards: asm=APCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/JXXB01-retro.bed
+    output: results/JXXB01-validatEVEs.tsv, results/JXXB01-validatEVEs.pdf
+    jobid: 62
+    reason: Missing output files: results/JXXB01-validatEVEs.tsv, results/JXXB01-validatEVEs.pdf; Input files updated by another job: results/JXXB01-retro.bed
+    wildcards: asm=JXXB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ATLV01-retro.bed
+    output: results/ATLV01-validatEVEs.tsv, results/ATLV01-validatEVEs.pdf
+    jobid: 150
+    reason: Missing output files: results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv; Input files updated by another job: results/ATLV01-retro.bed
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APHL01-retro.bed
+    output: results/APHL01-validatEVEs.tsv, results/APHL01-validatEVEs.pdf
+    jobid: 73
+    reason: Missing output files: results/APHL01-validatEVEs.pdf, results/APHL01-validatEVEs.tsv; Input files updated by another job: results/APHL01-retro.bed
+    wildcards: asm=APHL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AAAB01-retro.bed
+    output: results/AAAB01-validatEVEs.tsv, results/AAAB01-validatEVEs.pdf
+    jobid: 238
+    reason: Missing output files: results/AAAB01-validatEVEs.tsv, results/AAAB01-validatEVEs.pdf; Input files updated by another job: results/AAAB01-retro.bed
+    wildcards: asm=AAAB01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ADMH02-retro.bed
+    output: results/ADMH02-validatEVEs.tsv, results/ADMH02-validatEVEs.pdf
+    jobid: 161
+    reason: Missing output files: results/ADMH02-validatEVEs.tsv, results/ADMH02-validatEVEs.pdf; Input files updated by another job: results/ADMH02-retro.bed
+    wildcards: asm=ADMH02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCL01-retro.bed
+    output: results/APCL01-validatEVEs.tsv, results/APCL01-validatEVEs.pdf
+    jobid: 84
+    reason: Missing output files: results/APCL01-validatEVEs.tsv, results/APCL01-validatEVEs.pdf; Input files updated by another job: results/APCL01-retro.bed
+    wildcards: asm=APCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCI01-retro.bed
+    output: results/APCI01-validatEVEs.tsv, results/APCI01-validatEVEs.pdf
+    jobid: 249
+    reason: Missing output files: results/APCI01-validatEVEs.pdf, results/APCI01-validatEVEs.tsv; Input files updated by another job: results/APCI01-retro.bed
+    wildcards: asm=APCI01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCN01-retro.bed
+    output: results/APCN01-validatEVEs.tsv, results/APCN01-validatEVEs.pdf
+    jobid: 216
+    reason: Missing output files: results/APCN01-validatEVEs.pdf, results/APCN01-validatEVEs.tsv; Input files updated by another job: results/APCN01-retro.bed
+    wildcards: asm=APCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCK02-retro.bed
+    output: results/AXCK02-validatEVEs.tsv, results/AXCK02-validatEVEs.pdf
+    jobid: 172
+    reason: Missing output files: results/AXCK02-validatEVEs.pdf, results/AXCK02-validatEVEs.tsv; Input files updated by another job: results/AXCK02-retro.bed
+    wildcards: asm=AXCK02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCG01-retro.bed
+    output: results/APCG01-validatEVEs.tsv, results/APCG01-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/APCG01-validatEVEs.pdf, results/APCG01-validatEVEs.tsv; Input files updated by another job: results/APCG01-retro.bed
+    wildcards: asm=APCG01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCH01-retro.bed
+    output: results/APCH01-validatEVEs.tsv, results/APCH01-validatEVEs.pdf
+    jobid: 260
+    reason: Missing output files: results/APCH01-validatEVEs.pdf, results/APCH01-validatEVEs.tsv; Input files updated by another job: results/APCH01-retro.bed
+    wildcards: asm=APCH01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCP01-retro.bed
+    output: results/AXCP01-validatEVEs.tsv, results/AXCP01-validatEVEs.pdf
+    jobid: 95
+    reason: Missing output files: results/AXCP01-validatEVEs.pdf, results/AXCP01-validatEVEs.tsv; Input files updated by another job: results/AXCP01-retro.bed
+    wildcards: asm=AXCP01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCM01-retro.bed
+    output: results/AXCM01-validatEVEs.tsv, results/AXCM01-validatEVEs.pdf
+    jobid: 183
+    reason: Missing output files: results/AXCM01-validatEVEs.pdf, results/AXCM01-validatEVEs.tsv; Input files updated by another job: results/AXCM01-retro.bed
+    wildcards: asm=AXCM01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCQ01-retro.bed
+    output: results/AXCQ01-validatEVEs.tsv, results/AXCQ01-validatEVEs.pdf
+    jobid: 18
+    reason: Missing output files: results/AXCQ01-validatEVEs.tsv, results/AXCQ01-validatEVEs.pdf; Input files updated by another job: results/AXCQ01-retro.bed
+    wildcards: asm=AXCQ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCL01-retro.bed
+    output: results/AXCL01-validatEVEs.tsv, results/AXCL01-validatEVEs.pdf
+    jobid: 106
+    reason: Missing output files: results/AXCL01-validatEVEs.tsv, results/AXCL01-validatEVEs.pdf; Input files updated by another job: results/AXCL01-retro.bed
+    wildcards: asm=AXCL01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ATLZ01-retro.bed
+    output: results/ATLZ01-validatEVEs.tsv, results/ATLZ01-validatEVEs.pdf
+    jobid: 194
+    reason: Missing output files: results/ATLZ01-validatEVEs.pdf, results/ATLZ01-validatEVEs.tsv; Input files updated by another job: results/ATLZ01-retro.bed
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/AXCN01-retro.bed
+    output: results/AXCN01-validatEVEs.tsv, results/AXCN01-validatEVEs.pdf
+    jobid: 29
+    reason: Missing output files: results/AXCN01-validatEVEs.tsv, results/AXCN01-validatEVEs.pdf; Input files updated by another job: results/AXCN01-retro.bed
+    wildcards: asm=AXCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCJ01-retro.bed
+    output: results/APCJ01-validatEVEs.tsv, results/APCJ01-validatEVEs.pdf
+    jobid: 117
+    reason: Missing output files: results/APCJ01-validatEVEs.tsv, results/APCJ01-validatEVEs.pdf; Input files updated by another job: results/APCJ01-retro.bed
+    wildcards: asm=APCJ01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ACXO01-retro.bed
+    output: results/ACXO01-validatEVEs.tsv, results/ACXO01-validatEVEs.pdf
+    jobid: 40
+    reason: Missing output files: results/ACXO01-validatEVEs.pdf, results/ACXO01-validatEVEs.tsv; Input files updated by another job: results/ACXO01-retro.bed
+    wildcards: asm=ACXO01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ABKP02-retro.bed
+    output: results/ABKP02-validatEVEs.tsv, results/ABKP02-validatEVEs.pdf
+    jobid: 205
+    reason: Missing output files: results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv; Input files updated by another job: results/ABKP02-retro.bed
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/APCK01-retro.bed
+    output: results/APCK01-validatEVEs.tsv, results/APCK01-validatEVEs.pdf
+    jobid: 128
+    reason: Missing output files: results/APCK01-validatEVEs.pdf, results/APCK01-validatEVEs.tsv; Input files updated by another job: results/APCK01-retro.bed
+    wildcards: asm=APCK01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:14 2024]
+localrule validate_putatEVEs:
+    input: results/ALPR02-retro.bed
+    output: results/ALPR02-validatEVEs.tsv, results/ALPR02-validatEVEs.pdf
+    jobid: 51
+    reason: Missing output files: results/ALPR02-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv; Input files updated by another job: results/ALPR02-retro.bed
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 40.
+193 of 241 steps (80%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/ACXO01-putatEVEs.fna, results/ACXO01-validatEVEs.tsv
+    output: results/ACXO01-validatEVEs.fna
+    jobid: 34
+    reason: Missing output files: results/ACXO01-validatEVEs.fna; Input files updated by another job: results/ACXO01-putatEVEs.fna, results/ACXO01-validatEVEs.tsv
+    wildcards: asm=ACXO01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 34.
+194 of 241 steps (80%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 117.
+195 of 241 steps (81%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/APCJ01-putatEVEs.fna, results/APCJ01-validatEVEs.tsv
+    output: results/APCJ01-validatEVEs.fna
+    jobid: 111
+    reason: Missing output files: results/APCJ01-validatEVEs.fna; Input files updated by another job: results/APCJ01-validatEVEs.tsv, results/APCJ01-putatEVEs.fna
+    wildcards: asm=APCJ01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 111.
+196 of 241 steps (81%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 238.
+197 of 241 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/AAAB01-putatEVEs.fna, results/AAAB01-validatEVEs.tsv
+    output: results/AAAB01-validatEVEs.fna
+    jobid: 232
+    reason: Missing output files: results/AAAB01-validatEVEs.fna; Input files updated by another job: results/AAAB01-putatEVEs.fna, results/AAAB01-validatEVEs.tsv
+    wildcards: asm=AAAB01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 18.
+198 of 241 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/AXCQ01-putatEVEs.fna, results/AXCQ01-validatEVEs.tsv
+    output: results/AXCQ01-validatEVEs.fna
+    jobid: 12
+    reason: Missing output files: results/AXCQ01-validatEVEs.fna; Input files updated by another job: results/AXCQ01-validatEVEs.tsv, results/AXCQ01-putatEVEs.fna
+    wildcards: asm=AXCQ01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 194.
+199 of 241 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/ATLZ01-putatEVEs.fna, results/ATLZ01-validatEVEs.tsv
+    output: results/ATLZ01-validatEVEs.fna
+    jobid: 188
+    reason: Missing output files: results/ATLZ01-validatEVEs.fna; Input files updated by another job: results/ATLZ01-putatEVEs.fna, results/ATLZ01-validatEVEs.tsv
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 232.
+200 of 241 steps (83%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 51.
+201 of 241 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/ALPR02-putatEVEs.fna, results/ALPR02-validatEVEs.tsv
+    output: results/ALPR02-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/ALPR02-validatEVEs.fna; Input files updated by another job: results/ALPR02-putatEVEs.fna, results/ALPR02-validatEVEs.tsv
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 12.
+202 of 241 steps (84%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 188.
+203 of 241 steps (84%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 139.
+204 of 241 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:16 2024]
+localrule extract_validatEVEs:
+    input: results/JXXA01-putatEVEs.fna, results/JXXA01-validatEVEs.tsv
+    output: results/JXXA01-validatEVEs.fna
+    jobid: 133
+    reason: Missing output files: results/JXXA01-validatEVEs.fna; Input files updated by another job: results/JXXA01-validatEVEs.tsv, results/JXXA01-putatEVEs.fna
+    wildcards: asm=JXXA01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:16 2024]
+Finished job 45.
+205 of 241 steps (85%) done
+[Fri Jul  5 15:12:16 2024]
+Finished job 29.
+206 of 241 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/AXCN01-putatEVEs.fna, results/AXCN01-validatEVEs.tsv
+    output: results/AXCN01-validatEVEs.fna
+    jobid: 23
+    reason: Missing output files: results/AXCN01-validatEVEs.fna; Input files updated by another job: results/AXCN01-validatEVEs.tsv, results/AXCN01-putatEVEs.fna
+    wildcards: asm=AXCN01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 62.
+207 of 241 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/JXXB01-putatEVEs.fna, results/JXXB01-validatEVEs.tsv
+    output: results/JXXB01-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/JXXB01-validatEVEs.fna; Input files updated by another job: results/JXXB01-validatEVEs.tsv, results/JXXB01-putatEVEs.fna
+    wildcards: asm=JXXB01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 23.
+208 of 241 steps (86%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 133.
+209 of 241 steps (87%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 56.
+210 of 241 steps (87%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 249.
+211 of 241 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCI01-putatEVEs.fna, results/APCI01-validatEVEs.tsv
+    output: results/APCI01-validatEVEs.fna
+    jobid: 243
+    reason: Missing output files: results/APCI01-validatEVEs.fna; Input files updated by another job: results/APCI01-putatEVEs.fna, results/APCI01-validatEVEs.tsv
+    wildcards: asm=APCI01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 84.
+212 of 241 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCL01-putatEVEs.fna, results/APCL01-validatEVEs.tsv
+    output: results/APCL01-validatEVEs.fna
+    jobid: 78
+    reason: Missing output files: results/APCL01-validatEVEs.fna; Input files updated by another job: results/APCL01-validatEVEs.tsv, results/APCL01-putatEVEs.fna
+    wildcards: asm=APCL01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 243.
+213 of 241 steps (88%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 7.
+214 of 241 steps (89%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCG01-putatEVEs.fna, results/APCG01-validatEVEs.tsv
+    output: results/APCG01-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/APCG01-validatEVEs.fna; Input files updated by another job: results/APCG01-validatEVEs.tsv, results/APCG01-putatEVEs.fna
+    wildcards: asm=APCG01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 78.
+215 of 241 steps (89%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 1.
+216 of 241 steps (90%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 161.
+217 of 241 steps (90%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/ADMH02-putatEVEs.fna, results/ADMH02-validatEVEs.tsv
+    output: results/ADMH02-validatEVEs.fna
+    jobid: 155
+    reason: Missing output files: results/ADMH02-validatEVEs.fna; Input files updated by another job: results/ADMH02-validatEVEs.tsv, results/ADMH02-putatEVEs.fna
+    wildcards: asm=ADMH02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 155.
+218 of 241 steps (90%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 128.
+219 of 241 steps (91%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCK01-putatEVEs.fna, results/APCK01-validatEVEs.tsv
+    output: results/APCK01-validatEVEs.fna
+    jobid: 122
+    reason: Missing output files: results/APCK01-validatEVEs.fna; Input files updated by another job: results/APCK01-putatEVEs.fna, results/APCK01-validatEVEs.tsv
+    wildcards: asm=APCK01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 73.
+220 of 241 steps (91%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APHL01-putatEVEs.fna, results/APHL01-validatEVEs.tsv
+    output: results/APHL01-validatEVEs.fna
+    jobid: 67
+    reason: Missing output files: results/APHL01-validatEVEs.fna; Input files updated by another job: results/APHL01-putatEVEs.fna, results/APHL01-validatEVEs.tsv
+    wildcards: asm=APHL01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 150.
+221 of 241 steps (92%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 183.
+222 of 241 steps (92%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/ATLV01-putatEVEs.fna, results/ATLV01-validatEVEs.tsv
+    output: results/ATLV01-validatEVEs.fna
+    jobid: 144
+    reason: Missing output files: results/ATLV01-validatEVEs.fna; Input files updated by another job: results/ATLV01-putatEVEs.fna, results/ATLV01-validatEVEs.tsv
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/AXCM01-putatEVEs.fna, results/AXCM01-validatEVEs.tsv
+    output: results/AXCM01-validatEVEs.fna
+    jobid: 177
+    reason: Missing output files: results/AXCM01-validatEVEs.fna; Input files updated by another job: results/AXCM01-validatEVEs.tsv, results/AXCM01-putatEVEs.fna
+    wildcards: asm=AXCM01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 260.
+223 of 241 steps (93%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 216.
+224 of 241 steps (93%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 67.
+225 of 241 steps (93%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 122.
+226 of 241 steps (94%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCN01-putatEVEs.fna, results/APCN01-validatEVEs.tsv
+    output: results/APCN01-validatEVEs.fna
+    jobid: 210
+    reason: Missing output files: results/APCN01-validatEVEs.fna; Input files updated by another job: results/APCN01-putatEVEs.fna, results/APCN01-validatEVEs.tsv
+    wildcards: asm=APCN01
+    resources: tmpdir=/tmp
+
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCH01-putatEVEs.fna, results/APCH01-validatEVEs.tsv
+    output: results/APCH01-validatEVEs.fna
+    jobid: 254
+    reason: Missing output files: results/APCH01-validatEVEs.fna; Input files updated by another job: results/APCH01-putatEVEs.fna, results/APCH01-validatEVEs.tsv
+    wildcards: asm=APCH01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 144.
+227 of 241 steps (94%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 177.
+228 of 241 steps (95%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 227.
+229 of 241 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/APCM01-putatEVEs.fna, results/APCM01-validatEVEs.tsv
+    output: results/APCM01-validatEVEs.fna
+    jobid: 221
+    reason: Missing output files: results/APCM01-validatEVEs.fna; Input files updated by another job: results/APCM01-validatEVEs.tsv, results/APCM01-putatEVEs.fna
+    wildcards: asm=APCM01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 210.
+230 of 241 steps (95%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 254.
+231 of 241 steps (96%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 106.
+232 of 241 steps (96%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/AXCL01-putatEVEs.fna, results/AXCL01-validatEVEs.tsv
+    output: results/AXCL01-validatEVEs.fna
+    jobid: 100
+    reason: Missing output files: results/AXCL01-validatEVEs.fna; Input files updated by another job: results/AXCL01-validatEVEs.tsv, results/AXCL01-putatEVEs.fna
+    wildcards: asm=AXCL01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 221.
+233 of 241 steps (97%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 172.
+234 of 241 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/AXCK02-putatEVEs.fna, results/AXCK02-validatEVEs.tsv
+    output: results/AXCK02-validatEVEs.fna
+    jobid: 166
+    reason: Missing output files: results/AXCK02-validatEVEs.fna; Input files updated by another job: results/AXCK02-validatEVEs.tsv, results/AXCK02-putatEVEs.fna
+    wildcards: asm=AXCK02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 100.
+235 of 241 steps (98%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 166.
+236 of 241 steps (98%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 95.
+237 of 241 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/AXCP01-putatEVEs.fna, results/AXCP01-validatEVEs.tsv
+    output: results/AXCP01-validatEVEs.fna
+    jobid: 89
+    reason: Missing output files: results/AXCP01-validatEVEs.fna; Input files updated by another job: results/AXCP01-putatEVEs.fna, results/AXCP01-validatEVEs.tsv
+    wildcards: asm=AXCP01
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 89.
+238 of 241 steps (99%) done
+[Fri Jul  5 15:12:17 2024]
+Finished job 205.
+239 of 241 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule extract_validatEVEs:
+    input: results/ABKP02-putatEVEs.fna, results/ABKP02-validatEVEs.tsv
+    output: results/ABKP02-validatEVEs.fna
+    jobid: 199
+    reason: Missing output files: results/ABKP02-validatEVEs.fna; Input files updated by another job: results/ABKP02-validatEVEs.tsv, results/ABKP02-putatEVEs.fna
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 199.
+240 of 241 steps (99.6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jul  5 15:12:17 2024]
+localrule all:
+    input: results/APCG01-validatEVEs.fna, results/APCG01-validatEVEs.pdf, results/APCG01-validatEVEs.tsv, results/AXCQ01-validatEVEs.fna, results/AXCQ01-validatEVEs.pdf, results/AXCQ01-validatEVEs.tsv, results/AXCN01-validatEVEs.fna, results/AXCN01-validatEVEs.pdf, results/AXCN01-validatEVEs.tsv, results/ACXO01-validatEVEs.fna, results/ACXO01-validatEVEs.pdf, results/ACXO01-validatEVEs.tsv, results/ALPR02-validatEVEs.fna, results/ALPR02-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv, results/JXXB01-validatEVEs.fna, results/JXXB01-validatEVEs.pdf, results/JXXB01-validatEVEs.tsv, results/APHL01-validatEVEs.fna, results/APHL01-validatEVEs.pdf, results/APHL01-validatEVEs.tsv, results/APCL01-validatEVEs.fna, results/APCL01-validatEVEs.pdf, results/APCL01-validatEVEs.tsv, results/AXCP01-validatEVEs.fna, results/AXCP01-validatEVEs.pdf, results/AXCP01-validatEVEs.tsv, results/AXCL01-validatEVEs.fna, results/AXCL01-validatEVEs.pdf, results/AXCL01-validatEVEs.tsv, results/APCJ01-validatEVEs.fna, results/APCJ01-validatEVEs.pdf, results/APCJ01-validatEVEs.tsv, results/APCK01-validatEVEs.fna, results/APCK01-validatEVEs.pdf, results/APCK01-validatEVEs.tsv, results/JXXA01-validatEVEs.fna, results/JXXA01-validatEVEs.pdf, results/JXXA01-validatEVEs.tsv, results/ATLV01-validatEVEs.fna, results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv, results/ADMH02-validatEVEs.fna, results/ADMH02-validatEVEs.pdf, results/ADMH02-validatEVEs.tsv, results/AXCK02-validatEVEs.fna, results/AXCK02-validatEVEs.pdf, results/AXCK02-validatEVEs.tsv, results/AXCM01-validatEVEs.fna, results/AXCM01-validatEVEs.pdf, results/AXCM01-validatEVEs.tsv, results/ATLZ01-validatEVEs.fna, results/ATLZ01-validatEVEs.pdf, results/ATLZ01-validatEVEs.tsv, results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv, results/APCN01-validatEVEs.fna, results/APCN01-validatEVEs.pdf, results/APCN01-validatEVEs.tsv, results/APCM01-validatEVEs.fna, results/APCM01-validatEVEs.pdf, results/APCM01-validatEVEs.tsv, results/AAAB01-validatEVEs.fna, results/AAAB01-validatEVEs.pdf, results/AAAB01-validatEVEs.tsv, results/APCI01-validatEVEs.fna, results/APCI01-validatEVEs.pdf, results/APCI01-validatEVEs.tsv, results/APCH01-validatEVEs.fna, results/APCH01-validatEVEs.pdf, results/APCH01-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/AXCK02-validatEVEs.pdf, results/JXXA01-validatEVEs.fna, results/AXCM01-validatEVEs.tsv, results/ADMH02-validatEVEs.fna, results/ADMH02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv, results/ACXO01-validatEVEs.fna, results/APCK01-validatEVEs.pdf, results/APCG01-validatEVEs.tsv, results/JXXB01-validatEVEs.tsv, results/APCN01-validatEVEs.tsv, results/APCM01-validatEVEs.fna, results/ACXO01-validatEVEs.tsv, results/APCK01-validatEVEs.fna, results/APCJ01-validatEVEs.pdf, results/ATLZ01-validatEVEs.pdf, results/JXXB01-validatEVEs.fna, results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.pdf, results/AAAB01-validatEVEs.fna, results/ALPR02-validatEVEs.pdf, results/APCI01-validatEVEs.fna, results/JXXA01-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv, results/AXCL01-validatEVEs.pdf, results/AAAB01-validatEVEs.tsv, results/ATLV01-validatEVEs.pdf, results/APCH01-validatEVEs.tsv, results/AXCP01-validatEVEs.fna, results/APCH01-validatEVEs.pdf, results/AXCM01-validatEVEs.pdf, results/APCM01-validatEVEs.tsv, results/AXCQ01-validatEVEs.pdf, results/APCL01-validatEVEs.tsv, results/APCI01-validatEVEs.tsv, results/APCJ01-validatEVEs.fna, results/AXCM01-validatEVEs.fna, results/AXCQ01-validatEVEs.tsv, results/ALPR02-validatEVEs.fna, results/APCH01-validatEVEs.fna, results/APCL01-validatEVEs.fna, results/AXCN01-validatEVEs.pdf, results/APHL01-validatEVEs.tsv, results/APCL01-validatEVEs.pdf, results/APHL01-validatEVEs.fna, results/AXCP01-validatEVEs.tsv, results/ATLZ01-validatEVEs.tsv, results/ATLZ01-validatEVEs.fna, results/APCM01-validatEVEs.pdf, results/APCI01-validatEVEs.pdf, results/APCN01-validatEVEs.fna, results/AAAB01-validatEVEs.pdf, results/APCG01-validatEVEs.fna, results/APCN01-validatEVEs.pdf, results/APHL01-validatEVEs.pdf, results/APCJ01-validatEVEs.tsv, results/JXXA01-validatEVEs.tsv, results/ADMH02-validatEVEs.tsv, results/AXCL01-validatEVEs.tsv, results/AXCQ01-validatEVEs.fna, results/AXCL01-validatEVEs.fna, results/AXCN01-validatEVEs.fna, results/ACXO01-validatEVEs.pdf, results/AXCP01-validatEVEs.pdf, results/APCK01-validatEVEs.tsv, results/ATLV01-validatEVEs.fna, results/AXCK02-validatEVEs.fna, results/AXCK02-validatEVEs.tsv, results/ATLV01-validatEVEs.tsv, results/APCG01-validatEVEs.pdf, results/AXCN01-validatEVEs.tsv, results/JXXB01-validatEVEs.pdf
+    resources: tmpdir=/tmp
+
+[Fri Jul  5 15:12:17 2024]
+Finished job 0.
+241 of 241 steps (100%) done
+Complete log: .snakemake/log/2024-07-05T123654.908816.snakemake.log

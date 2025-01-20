@@ -1,0 +1,32 @@
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+ABKP02_EVE001	low	20	maybe-viral (1)	uncharacterized protein (1)	ABKP02011291.1_54-410:-	5.1899999999999996e-24	79.7	Uncharacterized protein n=2 Tax=gambiae species complex  RepID=A0A182V2R2_ANOME	NA	NA	Arthropoda
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+APCM01_EVE001	high	100	viral (1)	VDB (1)	APCM01026709.1_722-820:-	7.97e-8	45.5	polyprotein precursor [Theiler's disease-associated virus] 	polyprotein precursor [Theiler's disease-associated virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__Pegivirus;s__Pegivirus equi	Kitrinoviricota
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+APHL01_EVE001	high	74	viral (3), non-viral (1)	UDB Viruses (2), annotated protein of Eukaryota (1), VDB (1)	APHL01005937.1_2-1978:+	0	93.5	Genome polyprotein (Fragment) n=3 Tax=unclassified Flaviviridae  RepID=A0A1C9U5I9_9FLAV	Genome polyprotein (Fragment) n=3 Tax=unclassified Flaviviridae  RepID=A0A1C9U5I9_9FLAV	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__unclassified Flaviviridae species	Kitrinoviricota
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+ATLV01_EVE001	high	96	viral (19), maybe-viral (1)	VDB (13), UDB Viruses (6), uncharacterized protein (1)	ATLV01019207.1_3580-4280:-	5.26e-75	54.7	polyprotein [Karumba virus] 	polyprotein [Karumba virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Karumba virus	Kitrinoviricota
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+AXCK02_EVE001	high	95	viral (19), maybe-viral (1)	VDB (13), UDB Viruses (6), uncharacterized protein (1)	AXCK02024744.1_885-1547:-	7.11e-76	58.3	polyprotein [Karumba virus] 	polyprotein [Karumba virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Karumba virus	Kitrinoviricota
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+AXCL01_EVE001	high	100	viral (5)	UDB Viruses (3), VDB (2)	AXCL01017469.1_1653-2211:-	4.2599999999999996e-48	48.7	polyprotein [Karumba virus] 	polyprotein [Karumba virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Karumba virus	Kitrinoviricota
+AXCL01_EVE002	low	16	non-viral (16), viral (3), maybe-viral (1)	annotated protein of Eukaryota (16), viral (3), uncharacterized protein (1)	AXCL01035116.1_191-400:+	3.0999999999999995e-37	100	Helicase ATP-binding domain-containing protein n=10 Tax=Eumetazoa  RepID=A0A182T4D2_9DIPT	NA	NA	unclassified Eukaryota phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+AXCP01_EVE001	high	100	viral (2)	VDB (2)	AXCP01005692.1_4375-4602:-	2.28e-8	36.4	polyprotein [Anopheles flavivirus-like 2] 	polyprotein [Anopheles flavivirus-like 2] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Anopheles flavivirus-like 2	Kitrinoviricota
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum

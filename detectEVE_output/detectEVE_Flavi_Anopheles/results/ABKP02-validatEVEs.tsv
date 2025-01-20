@@ -1,0 +1,2 @@
+eve_id	confidence	eve_score	suggests	because	locus	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	max_count_phylum
+ABKP02_EVE001	low	20	maybe-viral (1)	uncharacterized protein (1)	ABKP02011291.1_54-410:-	5.1899999999999996e-24	79.7	Uncharacterized protein n=2 Tax=gambiae species complex  RepID=A0A182V2R2_ANOME	NA	NA	Arthropoda
