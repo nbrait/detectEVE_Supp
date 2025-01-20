@@ -1,0 +1,2 @@
+1969397	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Flasuviricetes;Amarillovirales;Flaviviridae;unclassified Flaviviridae;Karumba virus	10239;2559587;2732396;2732406;2732462;2732545;11050;38144;1969397	Amarillovirales;Flaviviridae	2732545;11050
+54315	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Flasuviricetes;Amarillovirales;Flaviviridae;Pestivirus;Pestivirus tauri;Bovine viral diarrhea virus 2	10239;2559587;2732396;2732406;2732462;2732545;11050;11095;3052626;54315	Amarillovirales;Flaviviridae	2732545;11050

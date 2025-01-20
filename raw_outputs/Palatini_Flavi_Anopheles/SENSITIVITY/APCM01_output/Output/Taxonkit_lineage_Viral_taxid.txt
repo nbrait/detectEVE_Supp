@@ -1,0 +1,1 @@
+54315	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Flasuviricetes;Amarillovirales;Flaviviridae;Pestivirus;Pestivirus tauri;Bovine viral diarrhea virus 2	10239;2559587;2732396;2732406;2732462;2732545;11050;11095;3052626;54315

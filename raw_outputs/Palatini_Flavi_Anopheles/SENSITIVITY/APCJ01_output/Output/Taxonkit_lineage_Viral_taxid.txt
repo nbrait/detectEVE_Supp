@@ -1,0 +1,2 @@
+2487775	Viruses;Varidnaviria;Bamfordvirae;Nucleocytoviricota;Megaviricetes;Imitervirales;Mimiviridae;Klosneuvirinae;unclassified Klosneuvirinae;Terrestrivirus sp.	10239;2732004;2732005;2732007;2732523;2732554;549779;1977630;2788772;2487775
+54315	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Flasuviricetes;Amarillovirales;Flaviviridae;Pestivirus;Pestivirus tauri;Bovine viral diarrhea virus 2	10239;2559587;2732396;2732406;2732462;2732545;11050;11095;3052626;54315
