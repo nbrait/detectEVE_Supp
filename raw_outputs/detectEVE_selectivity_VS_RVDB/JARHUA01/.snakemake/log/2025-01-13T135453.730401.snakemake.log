@@ -1,0 +1,211 @@
+host: slequime-HP-Z8-G4-Workstation
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 13:54:53 2025]
+localrule download_genome:
+    output: genomes/JARHUA01.fna, genomes/JARHUA01.htm
+    log: genomes/JARHUA01.log
+    jobid: 5
+    reason: Missing output files: genomes/JARHUA01.fna
+    wildcards: asm=JARHUA01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 13:55:30 2025]
+Finished job 5.
+1 of 12 steps (8%) done
+Removing temporary output genomes/JARHUA01.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 13:55:30 2025]
+localrule search_assemblies:
+    input: genomes/JARHUA01.fna
+    output: results/JARHUA01-search.o6, results/JARHUA01-search.bed
+    jobid: 4
+    reason: Missing output files: results/JARHUA01-search.bed; Input files updated by another job: genomes/JARHUA01.fna
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:00:08 2025]
+Finished job 4.
+2 of 12 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:00:09 2025]
+localrule extract_putatEVEs:
+    input: results/JARHUA01-search.bed, genomes/JARHUA01.fna
+    output: results/JARHUA01-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: results/JARHUA01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/JARHUA01.fna, results/JARHUA01-search.bed
+    wildcards: asm=JARHUA01
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:00:13 2025]
+Finished job 3.
+3 of 12 steps (25%) done
+Removing temporary output genomes/JARHUA01.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:00:13 2025]
+localrule masksearch_putatEVEs:
+    input: results/JARHUA01-putatEVEs-unmasked.fna
+    output: results/JARHUA01-mask.o6, results/JARHUA01-mask.bed
+    jobid: 6
+    reason: Missing output files: results/JARHUA01-mask.bed; Input files updated by another job: results/JARHUA01-putatEVEs-unmasked.fna
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:00:14 2025]
+Finished job 6.
+4 of 12 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:00:14 2025]
+localrule mask_putatEVEs:
+    input: results/JARHUA01-putatEVEs-unmasked.fna, results/JARHUA01-mask.bed
+    output: results/JARHUA01-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/JARHUA01-putatEVEs.fna; Input files updated by another job: results/JARHUA01-mask.bed, results/JARHUA01-putatEVEs-unmasked.fna
+    wildcards: asm=JARHUA01
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:00:14 2025]
+Finished job 2.
+5 of 12 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:00:14 2025]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JARHUA01-putatEVEs.fna
+    output: results/JARHUA01-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/JARHUA01-retro-vdb.o6; Input files updated by another job: results/JARHUA01-putatEVEs.fna
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:00:24 2025]
+Finished job 11.
+6 of 12 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:00:24 2025]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JARHUA01-putatEVEs.fna
+    output: results/JARHUA01-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/JARHUA01-retro-udb.o6; Input files updated by another job: results/JARHUA01-putatEVEs.fna
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:26 2025]
+Finished job 10.
+7 of 12 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:26:26 2025]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JARHUA01-retro-udb.o6, results/JARHUA01-retro-vdb.o6
+    output: results/JARHUA01-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/JARHUA01-retro-notax.bed; Input files updated by another job: results/JARHUA01-retro-udb.o6, results/JARHUA01-retro-vdb.o6
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:28 2025]
+Finished job 9.
+8 of 12 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:26:28 2025]
+localrule taxize_putatEVEs:
+    input: results/JARHUA01-retro-notax.bed
+    output: results/JARHUA01-retro.bed
+    jobid: 8
+    reason: Missing output files: results/JARHUA01-retro.bed; Input files updated by another job: results/JARHUA01-retro-notax.bed
+    wildcards: asm=JARHUA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:34 2025]
+Finished job 8.
+9 of 12 steps (75%) done
+Removing temporary output results/JARHUA01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:26:34 2025]
+localrule validate_putatEVEs:
+    input: results/JARHUA01-retro.bed
+    output: results/JARHUA01-validatEVEs.tsv, results/JARHUA01-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/JARHUA01-validatEVEs.pdf, results/JARHUA01-validatEVEs.tsv; Input files updated by another job: results/JARHUA01-retro.bed
+    wildcards: asm=JARHUA01
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:46 2025]
+Finished job 7.
+10 of 12 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:26:46 2025]
+localrule extract_validatEVEs:
+    input: results/JARHUA01-putatEVEs.fna, results/JARHUA01-validatEVEs.tsv
+    output: results/JARHUA01-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/JARHUA01-validatEVEs.fna; Input files updated by another job: results/JARHUA01-putatEVEs.fna, results/JARHUA01-validatEVEs.tsv
+    wildcards: asm=JARHUA01
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:46 2025]
+Finished job 1.
+11 of 12 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan 13 14:26:46 2025]
+localrule all:
+    input: results/JARHUA01-validatEVEs.fna, results/JARHUA01-validatEVEs.pdf, results/JARHUA01-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/JARHUA01-validatEVEs.pdf, results/JARHUA01-validatEVEs.tsv, results/JARHUA01-validatEVEs.fna
+    resources: tmpdir=/tmp
+
+[Mon Jan 13 14:26:46 2025]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2025-01-13T135453.730401.snakemake.log
