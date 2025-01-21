@@ -1,0 +1,19 @@
+name	Host_species	Contig	Location	reason	NCBI blastx	Orientation	Best_viral_match	e-value NR	e-value PFAM	region	Element_name	virus_type	Virus	
+CP1	Debaryomyces hansenii strain CBS 767	GCF_000006445.2	1020783-1022789	EVE not found	not found	-						dsRNA	Totivirus	
+RdRp	Debaryomyces hansenii strain CBS 768	GCF_000006445.2	1024486-1027080	EVE not found	not found	-						dsRNA	Totivirus	
+CP2	Debaryomyces hansenii strain CBS 769	GCF_000006445.2	1026963-1028772	EVE not found	not found	-						dsRNA	Totivirus	
+PdPCL8	Phoenix dactylifera	ACYX01071982	560-268	copy not found	found	n.s.	n.s.	2.00E-24	n.s.	n.s.			rose cryptic virus RoCV,	
+n.s.	(Loxodonta African)	AAGU03049012	9142-9474	copy not found	not found 	-	DQ680833	2.00E-16	9.70E-23	633-1019	EBLN-6 (NP)	negative sense RNA	Bornavirus	
+n.s.	(Aedes aegypti)	AAGE02000109	10351-11601	bitscore-cutoffs	-	+	AF523194	8.00E-45	7.00E-66	142-1107	NA	negative sense RNA	Vesiculovirus	
+n.s.	(Aedes aegypti)	AAGE02001215	25835-26779	bitscore-cutoffs	-	-	AF523194	1.00E-40	1.10E-65	277-1107	NA	negative sense RNA	Vesiculovirus	
+n.s.	(Aedes aegypti)	AAGE02002666	109714-110964	bitscore-cutoffs	-	-	U10363	1.00E-41	2.80E-66	277-1137	NA	negative sense RNA	Vesiculovirus	
+n.s.	(Aedes aegypti)	AAGE02016722	26179-27345	bitscore-cutoffs	-	-	AF523194	6.00E-39	1.30E-66	241-1254	NA	negative sense RNA	Vesiculovirus	
+n.s.	(Aedes aegypti)	AAGE02023708	4461-5684	bitscore-cutoffs	-	+	AF523194	9.00E-40	2.70E-61	277-1107	NA	negative sense RNA	Vesiculovirus	
+n.s.	(Cavia porcellus)	AAKN02031205	114399-115225	false positive	-	+	DQ335246.2	2.00E-43	3.50E-26	330-1208	NA	ssDNA	Dependovirus	
+EpMLLS3	Erysiphe pisi	CACM01011995	311–765	bitscore-cutoffs	-	n.s.	n.s.	1.00E-44	4.00E-34	n.s.	RdRp	NA	Nyamanini virus	
+EpMLLS6	Erysiphe pisi	CACN01006028d	210–277	bitscore-cutoffs, length-cutoffs, evalue-cutoffs	-	n.s.	n.s.	3.80E-02	-	n.s.	-	NA	Avian paramyxovirus 4	
+EpMLLS6	Erysiphe pisi	CACM01008924	210–277	bitscore-cutoffs, length-cutoffs, evalue-cutoffs	-	n.s.	n.s.	3.80E-02	-	n.s.	-	NA	Avian paramyxovirus 4	
+MdRNLS1-1	Malus x domestica	ACYM01021736	2134-3297	bitscore-cutoffs	-	n.s.	n.s.	8.00E-31	n.s.	n.s.	GP, SQ, PA	NA	lettuce big-vein associated virus LBVaV	
+MdPCLS7	Malus x domestica	ACYM01118643	10505-11776	bitscore-cutoffs	-	n.s.	n.s.	4.00E-46	n.s.	n.s.	PA	NA	Raphanus sativus cryptic virus 3	
+n.s.	(Macropus eugenii)	ABQO010958468	613-795	length-cutoffs	-		AY695375	1.00E-13	7.6e-12 a	1323-1505		ssDNA	Dependovirus	
+AdarRha1	Anopheles darlingi	​​idAnoDarlMG_H_01.Chr3	33075366-33078176	evalue-cutoffs		+	Aedes aegypti	1.00E-04	n.s.	ND	Rhabdovirus spike glycoprotein	ssRNA-	Rhabdoviridae	Formosus virus

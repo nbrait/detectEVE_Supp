@@ -1,0 +1,5 @@
+Category	Keywords	Rationale
+False	ubiquitin, collagen, heat shock, NEDD8	Terms associated with motifs or genes acquired by viruses through gene acquisition, which could potentially lead to false positive hits, as detectEVE is unable to differentiate between host genes and EVEs that have undergone prior gene acquisition.
+Retro	retro, reverse transcriptase, transposon, transposase	Terms specific to both retroviruses and retrotransposons.
+Viral	virus, viral, virion, endogenous, envelope, coat, capsid	Terms directly related to viral structures or elements, including endogenous viral elements.
+Maybe-viral	hypothetical, uncharacterized, glycoprotein, polyprotein	Terms indicating uncertain or poorly annotated proteins that may potentially be of viral origin (EVE).

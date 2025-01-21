@@ -1,0 +1,28 @@
+Phylum	Species	Accession	Reference
+Animal	Gallus gallus	AADN02	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Monodelphis domestica	AAFR03	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Aedes aegypti	AAGE02	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Loxodonta africana	AAGU03	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Cavia porcellus	AAKN02	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Otolemur garnettii	AAQR01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Culex quinquefasciatus	AAWU01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Microcebus murinus	ABDC01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Ixodes scapularis	ABJB01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Macropus eugenii	ABQO01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Dipodomys ordii	ABRO01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Pteropus vampyrus	ABRP01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Procavia capensis	ABRQ01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Felis cattus	ACBE01	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Gorilla gorilla	CABD02	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001191
+Animal	Anopheles darlingi	GCF_943734745.1	https://pubmed.ncbi.nlm.nih.gov/39549981/
+Animal	Macrosiphum euphorbiae	JARHUA01	https://pmc.ncbi.nlm.nih.gov/articles/PMC10594914/#notes3
+Plants	Malus x domestica	ACYM01	https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002146
+Plants	Phoenix dactyliphera	ACYX01	https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002146
+Plants	Sorghum bicolor	ABXC01	https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002146
+Plants	Cucumis sativus	ACHR01	https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002146
+Plants	Theobroma cacao	CACC01	https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002146
+Fungi	Talaromyces marneffei ATCC 18224	ABAR01	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805616/
+Fungi	Erysiphe pisi	CACM01	https://www.sciencedirect.com/science/article/pii/S0042682212005004#s0065
+Fungi	Erysiphe pisi	CACN01	https://www.sciencedirect.com/science/article/pii/S0042682212005004#s0065
+Fungi	Debaryomyces hansenii CBS767	GCF_000006445.2	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805616/
+Fungi	Scheffersomyces stipitis CBS 6054	GCF_000209165.1	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805616/

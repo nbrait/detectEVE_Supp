@@ -1,0 +1,90 @@
+summary data												
+Tool	Threads	Metric	mean	sd 								
+detectEVE	1	running time (seconds)	4766	12.29								
+detectEVE	1	CPU (%)	99	0								
+detectEVE	1	memory usage (kbyte)	13062216.00	5164.54								
+detectEVE	8	running time (seconds)	748.79	1.24								
+detectEVE	8	CPU (%)	704.67	1.53								
+detectEVE	8	memory usage (kbyte)	13109337.33	5033.71								
+detectEVE	16	running time (seconds)	516.69	17.45								
+detectEVE	16	CPU (%)	1222.33	49.07								
+detectEVE	16	memory usage (kbyte)	12623241.33	969.86								
+detectEVE	40	running time (seconds)	331.53	8.30								
+detectEVE	40	CPU (%)	2892.00	35.68								
+detectEVE	40	memory usage (kbyte)	13266964.00	5514.24								
+DIGS	1	running time (seconds)	32235.67	698.29								
+DIGS	1	CPU (%)	67.00	2.65								
+DIGS	1	memory usage (kbyte)	167922.67	298.86								
+DIGS	8	running time (seconds)	15692.00	3248.60								
+DIGS	8	CPU (%)	171.00	32.05								
+DIGS	8	memory usage (kbyte)	381024.00	4013.52								
+DIGS	16	running time (seconds)	13899.00	213.98								
+DIGS	16	CPU (%)	248.00	6.93								
+DIGS	16	memory usage (kbyte)	426781.33	2535.12								
+DIGS	40	running time (seconds)	15088.33	473.48								
+DIGS	40	CPU (%)	350.33	4.73								
+DIGS	40	memory usage (kbyte)	522509.33	1726.96								
+Palatini	1	running time (seconds)	100825.33	3589.70								
+Palatini	1	CPU (%)	98.00	0.00								
+Palatini	1	memory usage (kbyte)	10450709.33	75009.35								
+Palatini	8	running time (seconds)	17571.33	1289.74								
+Palatini	8	CPU (%)	632.33	10.21								
+Palatini	8	memory usage (kbyte)	10629348.00	134739.53								
+Palatini	16	running time (seconds)	11676.33	1215.40								
+Palatini	16	CPU (%)	1022.33	39.55								
+Palatini	16	memory usage (kbyte)	10641834.67	129239.23								
+Palatini	40	running time (seconds)	10129.67	794.07								
+Palatini	40	CPU (%)	1946.00	160.22								
+Palatini	40	memory usage (kbyte)	11333426.67	379427.04								
+												
+												
+												
+individual runs:												
+												
+tool	Run	threads 	Samples	database	Hardware	Genome size	Total length	Elapsed (wall clock) time (h:mm:ss or m:ss)	User time (seconds)	System time (seconds)	Percent of CPU this job got	Maximum resident set size (kbytes)
+detectEVE	1	1	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	1:19:40	4643.29	130.64	99	13056504
+detectEVE	2	1	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	1:19:17	4633.23	118.1	99	13066556
+detectEVE	3	1	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	1:19:21	4634.69	120.39	99	13063588
+detectEVE	1	8	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	12:30.19	5133.42	146.51	703	13112748
+detectEVE	2	8	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	12:28.35	5134.32	143.03	705	13103556
+detectEVE	3	8	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	12:27.82	5125.75	158.35	706	13111708
+detectEVE	1	16	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	8:16.59	6074.89	278.44	1279	12624244
+detectEVE	2	16	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	8:47.93	6072.03	231.86	1194	12623172
+detectEVE	3	16	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	8:45.56	6038.2	241.43	1194	12622308
+detectEVE	1	40	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	5:39.98	9278.76	497.54	2875	13272508
+detectEVE	2	40	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	5:31.23	9153.67	349.01	2868	13261480
+detectEVE	3	40	1	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	5:23.38	9157.36	328.23	2933	13266904
+												
+DIGS	1	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	9:08:34	20844.26	446.49	64	168264
+DIGS	2	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	8:57:54	21696.78	407.68	68	167708
+DIGS	3	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	8:45:19	21665.39	393.07	69	167796
+DIGS	1	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:49:46	25645.6	646.4	190	382488
+DIGS	2	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	5:24:03	25535.69	604.9	134	384100
+DIGS	3	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:50:47	25640.85	603.94	189	376484
+DIGS	1	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:49:41	33944.76	854.24	252	424720
+DIGS	1	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:49:30	33969.06	831.87	252	426012
+DIGS	1	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:55:46	33196.4	849.87	240	429612
+DIGS	1	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	4:07:25	51323.34	1327.66	354	520524
+DIGS	2	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	4:06:26	50772.25	1329.12	352	523340
+DIGS	3	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	4:20:34	52559.4	1393.97	345	523664
+												
+Palatini	1	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	26:51:21	94793.05	608.38	98	10364096
+Palatini	2	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	28:36:03	101178.75	549.39	98	10494016
+Palatini	3	1	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	28:33:52	100868.64	563.29	98	10494016
+Palatini	1	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	4:37:23	103844.87	726.27	628	10473804
+Palatini	2	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	4:43:47	105895.65	555.39	625	10704072
+Palatini	3	8	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	5:17:24	122173.26	602.7	644	10710168
+Palatini	1	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:02:15	108470.2	833.51	999	10569880
+Palatini	2	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:03:35	109473.92	786.39	1000	10564588
+Palatini	3	16	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:37:59	139169.16	566.04	1068	10791036
+Palatini	1	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	3:04:04	193596.99	907.79	1761	10895528
+Palatini	2	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	2:40:13	194950.29	920.58	2037	11540192
+Palatini	3	40	1	Flavi_cut	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	91.5 Mb	328,942,838 bp	2:42:12	197756.8	802.63	2040	11564560
+												
+												
+detectEVE	1	1	1	Flavi.dmnd	MSI 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   	91.5 Mb	328,942,838 bp	1:00:59	3491.67	70.79	97	10028852
+detectEVE	1	8	1	Flavi.dmnd	MSI 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   	91.5 Mb	328,942,838 bp	17:19.93	6690.43	80.75	651	10932952
+												
+Palatini	1	40	24	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	n.d.	n.d.	25:53:39	1150346.03	21890.24	1257	11528756
+DIGS	1	40	24	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	n.d.	n.d.	16:59:58	532742.52	5639.45	879	523500
+detectEVE	1	40	24	Flavi.dmnd	Intel(R) Xeon(R) Gold 5215 CPU @ 2.50GHz	n.d.	n.d.	2:35:23	272639.46	18522.25	3122	23940556
