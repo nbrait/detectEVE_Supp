@@ -3,7 +3,7 @@
 **Nadja Brait, Thomas Hackl, Sebastian Lequime**
 
 ### Purpose 
-Repository containing supplementary material such as raw output of tools, sequences, and additional scripts. The tool itsel can be found at https://github.com/thackl/detectEVE
+Repository containing supplementary material such as raw output of tools, sequences, and additional scripts. The tool itself can be found at https://github.com/thackl/detectEVE
 
 ### Abstract
 **Summary** Endogenous viral elements (EVEs) are fragments of viral genomic material embedded within the host genome. Retroviruses contribute to the majority of EVEs due to their genomic integration during their life cycle, however, the latter can also arise from non-retroviral RNA or DNA viruses, then collectively known as non-retroviral (nr)EVEs. Detecting nrEVEs poses challenges due to their sequence and genomic structural diversity, contributing to the scarcity of specific tools designed for nrEVEs detection.
@@ -17,7 +17,7 @@ Our tool can help to fill current gaps in both host-associated fields and virus-
 ### Citation
 BioRxiv. https://doi.org/10.1101/2023.09.08.556789
 
-### Project Workflow
-![Alt text](/Workflow_figure_github.png?raw=true "Project workflow")
+### Pipeline
+![Alt text](https://github.com/nbrait/detectEVE_Supp/blob/main/Figure1.png " Tool pipeline")
 
 
