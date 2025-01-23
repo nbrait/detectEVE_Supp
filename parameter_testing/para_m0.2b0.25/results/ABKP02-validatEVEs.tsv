@@ -1,0 +1,2 @@
+eve_id	confidence	eve_score	suggests	because	locus	eve_length	percent_contig	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	top_viral_coverage	max_count_phylum
+ABKP02_EVE001	high	44	maybe-viral (1), viral (1)	uncharacterized protein (1), VDB (1)	ABKP02011291.1_54-410:-	357	23.91	5.07e-24	79.7	Uncharacterized protein n=2 Tax=gambiae species complex  RepID=A0A182V2R2_ANOME	polyprotein [Rodent pestivirus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__Pestivirus;s__Rodent pestivirus	3.08	Arthropoda

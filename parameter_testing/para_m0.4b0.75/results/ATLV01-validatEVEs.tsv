@@ -1,0 +1,3 @@
+eve_id	confidence	eve_score	suggests	because	locus	eve_length	percent_contig	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	top_viral_coverage	max_count_phylum
+ATLV01_EVE001	high	100	viral (3)	UDB Viruses (2), VDB (1)	ATLV01019207.1_3580-4280:-	701	9.5	5.26e-75	54.7	polyprotein [Karumba virus] 	polyprotein [Karumba virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Karumba virus	7.27	Kitrinoviricota
+ATLV01_EVE002	low	11	non-viral (3), maybe-viral (1)	annotated protein of Eukaryota (3), uncharacterized protein (1)	ATLV01014763.1_2345-2887:+	543	NA	1.8599999999999998e-94	82.2	RNA helicase n=7 Tax=Cellia  RepID=A0A182Q2W8_9DIPT	NA	NA	NA	Arthropoda

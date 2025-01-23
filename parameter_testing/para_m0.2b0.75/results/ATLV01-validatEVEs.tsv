@@ -1,0 +1,2 @@
+eve_id	confidence	eve_score	suggests	because	locus	eve_length	percent_contig	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	top_viral_coverage	max_count_phylum
+ATLV01_EVE001	high	100	viral (3)	UDB Viruses (2), VDB (1)	ATLV01019207.1_3580-4280:-	701	9.5	3.01e-73	54.7	polyprotein [Karumba virus] acc=YP_009388577.1 	polyprotein [Karumba virus] acc=YP_009388577.1 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__unclassified Flaviviridae genus;s__Karumba virus	7.27	Kitrinoviricota

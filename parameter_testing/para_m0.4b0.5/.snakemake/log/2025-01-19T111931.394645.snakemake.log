@@ -1,0 +1,211 @@
+host: slequime-HP-Z8-G4-Workstation
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:19:31 2025]
+localrule download_genome:
+    output: genomes/ATLV01.fna, genomes/ATLV01.htm
+    log: genomes/ATLV01.log
+    jobid: 49
+    reason: Missing output files: genomes/ATLV01.fna
+    wildcards: asm=ATLV01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:19:47 2025]
+Finished job 49.
+1 of 12 steps (8%) done
+Removing temporary output genomes/ATLV01.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:19:47 2025]
+localrule search_assemblies:
+    input: genomes/ATLV01.fna
+    output: results/ATLV01-search.o6, results/ATLV01-search.bed
+    jobid: 48
+    reason: Missing output files: results/ATLV01-search.bed; Input files updated by another job: genomes/ATLV01.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:20:09 2025]
+Finished job 48.
+2 of 12 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:20:09 2025]
+localrule extract_putatEVEs:
+    input: results/ATLV01-search.bed, genomes/ATLV01.fna
+    output: genomes/ATLV01.fna.seqkit.fai, results/ATLV01-putatEVEs-unmasked.fna
+    jobid: 47
+    reason: Missing output files: genomes/ATLV01.fna.seqkit.fai, results/ATLV01-putatEVEs-unmasked.fna; Input files updated by another job: results/ATLV01-search.bed, genomes/ATLV01.fna
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:20:10 2025]
+Finished job 47.
+3 of 12 steps (25%) done
+Removing temporary output genomes/ATLV01.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:20:10 2025]
+localrule masksearch_putatEVEs:
+    input: results/ATLV01-putatEVEs-unmasked.fna
+    output: results/ATLV01-mask.o6, results/ATLV01-mask.bed
+    jobid: 50
+    reason: Missing output files: results/ATLV01-mask.bed; Input files updated by another job: results/ATLV01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:20:10 2025]
+Finished job 50.
+4 of 12 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:20:10 2025]
+localrule mask_putatEVEs:
+    input: results/ATLV01-putatEVEs-unmasked.fna, results/ATLV01-mask.bed
+    output: results/ATLV01-putatEVEs.fna
+    jobid: 46
+    reason: Missing output files: results/ATLV01-putatEVEs.fna; Input files updated by another job: results/ATLV01-mask.bed, results/ATLV01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:20:10 2025]
+Finished job 46.
+5 of 12 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:20:10 2025]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ATLV01-putatEVEs.fna
+    output: results/ATLV01-retro-vdb.o6
+    jobid: 55
+    reason: Missing output files: results/ATLV01-retro-vdb.o6; Input files updated by another job: results/ATLV01-putatEVEs.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:20:11 2025]
+Finished job 55.
+6 of 12 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:20:11 2025]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ATLV01-putatEVEs.fna
+    output: results/ATLV01-retro-udb.o6
+    jobid: 54
+    reason: Missing output files: results/ATLV01-retro-udb.o6; Input files updated by another job: results/ATLV01-putatEVEs.fna
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:36 2025]
+Finished job 54.
+7 of 12 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:24:36 2025]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ATLV01-retro-udb.o6, results/ATLV01-retro-vdb.o6
+    output: results/ATLV01-retro-notax.bed
+    jobid: 53
+    reason: Missing output files: results/ATLV01-retro-notax.bed; Input files updated by another job: results/ATLV01-retro-udb.o6, results/ATLV01-retro-vdb.o6
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:36 2025]
+Finished job 53.
+8 of 12 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:24:36 2025]
+localrule taxize_putatEVEs:
+    input: results/ATLV01-retro-notax.bed
+    output: results/ATLV01-retro.bed
+    jobid: 52
+    reason: Missing output files: results/ATLV01-retro.bed; Input files updated by another job: results/ATLV01-retro-notax.bed
+    wildcards: asm=ATLV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:38 2025]
+Finished job 52.
+9 of 12 steps (75%) done
+Removing temporary output results/ATLV01-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:24:38 2025]
+localrule validate_putatEVEs:
+    input: results/ATLV01-retro.bed, genomes/ATLV01.fna.seqkit.fai
+    output: results/ATLV01-validatEVEs.tsv, results/ATLV01-validatEVEs.pdf
+    jobid: 51
+    reason: Missing output files: results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv; Input files updated by another job: results/ATLV01-retro.bed, genomes/ATLV01.fna.seqkit.fai
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:40 2025]
+Finished job 51.
+10 of 12 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:24:40 2025]
+localrule extract_validatEVEs:
+    input: results/ATLV01-putatEVEs.fna, results/ATLV01-validatEVEs.tsv
+    output: results/ATLV01-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/ATLV01-validatEVEs.fna; Input files updated by another job: results/ATLV01-validatEVEs.tsv, results/ATLV01-putatEVEs.fna
+    wildcards: asm=ATLV01
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:40 2025]
+Finished job 45.
+11 of 12 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 11:24:40 2025]
+localrule all:
+    input: results/AXCL01-validatEVEs.fna, results/AXCL01-validatEVEs.pdf, results/AXCL01-validatEVEs.tsv, results/AXCP01-validatEVEs.fna, results/AXCP01-validatEVEs.pdf, results/AXCP01-validatEVEs.tsv, results/AXCK02-validatEVEs.fna, results/AXCK02-validatEVEs.pdf, results/AXCK02-validatEVEs.tsv, results/APCM01-validatEVEs.fna, results/APCM01-validatEVEs.pdf, results/APCM01-validatEVEs.tsv, results/ATLV01-validatEVEs.fna, results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv, results/APHL01-validatEVEs.fna, results/APHL01-validatEVEs.pdf, results/APHL01-validatEVEs.tsv, results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv, results/ATLV01-validatEVEs.fna
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 11:24:40 2025]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2025-01-19T111931.394645.snakemake.log

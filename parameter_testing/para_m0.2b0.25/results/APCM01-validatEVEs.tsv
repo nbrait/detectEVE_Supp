@@ -1,0 +1,2 @@
+eve_id	confidence	eve_score	suggests	because	locus	eve_length	percent_contig	top_evalue	top_pident	top_desc	top_viral_desc	top_viral_lineage	top_viral_coverage	max_count_phylum
+APCM01_EVE001	high	100	viral (1)	VDB (1)	APCM01026709.1_722-820:-	99	7.03	7.97e-8	45.5	polyprotein precursor [Theiler's disease-associated virus] 	polyprotein precursor [Theiler's disease-associated virus] 	k__Viruses;K__Orthornavirae;p__Kitrinoviricota;c__Flasuviricetes;o__Amarillovirales;f__Flaviviridae;g__Pegivirus;s__Pegivirus equi	1.03	Kitrinoviricota

@@ -1,0 +1,211 @@
+host: slequime-HP-Z8-G4-Workstation
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:05:56 2025]
+localrule download_genome:
+    output: genomes/ABKP02.fna, genomes/ABKP02.htm
+    log: genomes/ABKP02.log
+    jobid: 5
+    reason: Missing output files: genomes/ABKP02.fna
+    wildcards: asm=ABKP02
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:13 2025]
+Finished job 5.
+1 of 12 steps (8%) done
+Removing temporary output genomes/ABKP02.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:13 2025]
+localrule search_assemblies:
+    input: genomes/ABKP02.fna
+    output: results/ABKP02-search.o6, results/ABKP02-search.bed
+    jobid: 4
+    reason: Missing output files: results/ABKP02-search.bed; Input files updated by another job: genomes/ABKP02.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:34 2025]
+Finished job 4.
+2 of 12 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:34 2025]
+localrule extract_putatEVEs:
+    input: results/ABKP02-search.bed, genomes/ABKP02.fna
+    output: genomes/ABKP02.fna.seqkit.fai, results/ABKP02-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: genomes/ABKP02.fna.seqkit.fai, results/ABKP02-putatEVEs-unmasked.fna; Input files updated by another job: results/ABKP02-search.bed, genomes/ABKP02.fna
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:35 2025]
+Finished job 3.
+3 of 12 steps (25%) done
+Removing temporary output genomes/ABKP02.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:35 2025]
+localrule masksearch_putatEVEs:
+    input: results/ABKP02-putatEVEs-unmasked.fna
+    output: results/ABKP02-mask.o6, results/ABKP02-mask.bed
+    jobid: 6
+    reason: Missing output files: results/ABKP02-mask.bed; Input files updated by another job: results/ABKP02-putatEVEs-unmasked.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:36 2025]
+Finished job 6.
+4 of 12 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:36 2025]
+localrule mask_putatEVEs:
+    input: results/ABKP02-putatEVEs-unmasked.fna, results/ABKP02-mask.bed
+    output: results/ABKP02-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/ABKP02-putatEVEs.fna; Input files updated by another job: results/ABKP02-mask.bed, results/ABKP02-putatEVEs-unmasked.fna
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:36 2025]
+Finished job 2.
+5 of 12 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:36 2025]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ABKP02-putatEVEs.fna
+    output: results/ABKP02-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/ABKP02-retro-vdb.o6; Input files updated by another job: results/ABKP02-putatEVEs.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:06:37 2025]
+Finished job 11.
+6 of 12 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:06:37 2025]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ABKP02-putatEVEs.fna
+    output: results/ABKP02-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/ABKP02-retro-udb.o6; Input files updated by another job: results/ABKP02-putatEVEs.fna
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:49 2025]
+Finished job 10.
+7 of 12 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:10:49 2025]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ABKP02-retro-udb.o6, results/ABKP02-retro-vdb.o6
+    output: results/ABKP02-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/ABKP02-retro-notax.bed; Input files updated by another job: results/ABKP02-retro-vdb.o6, results/ABKP02-retro-udb.o6
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:49 2025]
+Finished job 9.
+8 of 12 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:10:49 2025]
+localrule taxize_putatEVEs:
+    input: results/ABKP02-retro-notax.bed
+    output: results/ABKP02-retro.bed
+    jobid: 8
+    reason: Missing output files: results/ABKP02-retro.bed; Input files updated by another job: results/ABKP02-retro-notax.bed
+    wildcards: asm=ABKP02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:51 2025]
+Finished job 8.
+9 of 12 steps (75%) done
+Removing temporary output results/ABKP02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:10:51 2025]
+localrule validate_putatEVEs:
+    input: results/ABKP02-retro.bed, genomes/ABKP02.fna.seqkit.fai
+    output: results/ABKP02-validatEVEs.tsv, results/ABKP02-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv; Input files updated by another job: genomes/ABKP02.fna.seqkit.fai, results/ABKP02-retro.bed
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:53 2025]
+Finished job 7.
+10 of 12 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:10:53 2025]
+localrule extract_validatEVEs:
+    input: results/ABKP02-putatEVEs.fna, results/ABKP02-validatEVEs.tsv
+    output: results/ABKP02-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/ABKP02-validatEVEs.fna; Input files updated by another job: results/ABKP02-putatEVEs.fna, results/ABKP02-validatEVEs.tsv
+    wildcards: asm=ABKP02
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:53 2025]
+Finished job 1.
+11 of 12 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Jan 19 10:10:53 2025]
+localrule all:
+    input: results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.tsv
+    resources: tmpdir=/tmp
+
+[Sun Jan 19 10:10:53 2025]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2025-01-19T100556.237639.snakemake.log
